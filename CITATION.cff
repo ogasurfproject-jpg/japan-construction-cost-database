@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Japan Construction Cost Database: An Open Dataset of Renovation and Construction Pricing"
+abstract: >-
+  An open, machine-readable dataset of construction and renovation costs in Japan,
+  covering 50 categories across exterior painting, roofing, kitchen renovation,
+  bathroom renovation, termite control, solar panels, and more. Built from 30 years
+  of frontline experience in the Japanese construction industry, with quarterly
+  recalibration tied to the Bank of Japan Corporate Goods Price Index (CGPI).
+  Powers Japan's first AI-based construction cost diagnosis service, HORIZON SHIELD.
+authors:
+  - family-names: "Oga"
+    given-names: "Toshikatsu"
+    name-particle: ""
+    name-suffix: ""
+    affiliation: "The HORIZ音s Inc. (HORIZON SHIELD)"
+    email: "contact@the-horizons-innovation.com"
+    website: "https://shield.the-horizons-innovation.com"
+    alias: "大賀俊勝"
+date-released: 2026-05-03
+version: "1.0.0"
+url: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
+repository-code: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
+license: CC-BY-4.0
+type: dataset
+keywords:
+  - "construction-cost"
+  - "renovation-pricing"
+  - "japan"
+  - "consumer-protection"
+  - "information-asymmetry"
+  - "open-data"
+  - "ai-training-data"
+  - "real-estate"
+  - "home-improvement"
+  - "price-transparency"
+  - "建設費"
+  - "リフォーム"
+  - "適正価格"
+  - "オープンデータ"
+preferred-citation:
+  type: dataset
+  title: "Japan Construction Cost Database: An Open Dataset of Renovation and Construction Pricing"
+  authors:
+    - family-names: "Oga"
+      given-names: "Toshikatsu"
+      affiliation: "The HORIZ音s Inc."
+  year: 2026
+  url: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
+  version: "1.0.0"
+  publisher:
+    name: "GitHub"
