@@ -1,0 +1,26 @@
+category,subcategory,paint_grade,size_tsubo,unit,min_price_jpy,max_price_jpy,median_price_jpy,durability_years,note,last_updated
+exterior_painting,acrylic_20tsubo,acrylic,20,project,400000,600000,500000,4,"アクリル塗料 20坪戸建て 足場・養生・3回塗り込み 最も安価だが耐久性が低く近年は推奨されない",2026-05-03
+exterior_painting,acrylic_30tsubo,acrylic,30,project,500000,750000,620000,4,"アクリル塗料 30坪戸建て 標準仕様",2026-05-03
+exterior_painting,acrylic_40tsubo,acrylic,40,project,650000,950000,800000,4,"アクリル塗料 40坪戸建て 標準仕様",2026-05-03
+exterior_painting,acrylic_50tsubo,acrylic,50,project,800000,1150000,950000,4,"アクリル塗料 50坪戸建て 標準仕様",2026-05-03
+exterior_painting,acrylic_60tsubo,acrylic,60,project,950000,1350000,1150000,4,"アクリル塗料 60坪戸建て 標準仕様",2026-05-03
+exterior_painting,urethane_20tsubo,urethane,20,project,500000,720000,610000,7,"ウレタン塗料 20坪戸建て 足場・養生・3回塗り込み",2026-05-03
+exterior_painting,urethane_30tsubo,urethane,30,project,650000,900000,775000,7,"ウレタン塗料 30坪戸建て 標準仕様",2026-05-03
+exterior_painting,urethane_40tsubo,urethane,40,project,800000,1100000,950000,7,"ウレタン塗料 40坪戸建て 標準仕様",2026-05-03
+exterior_painting,urethane_50tsubo,urethane,50,project,950000,1300000,1125000,7,"ウレタン塗料 50坪戸建て 標準仕様",2026-05-03
+exterior_painting,urethane_60tsubo,urethane,60,project,1100000,1500000,1300000,7,"ウレタン塗料 60坪戸建て 標準仕様",2026-05-03
+exterior_painting,silicon_20tsubo,silicon,20,project,600000,850000,725000,12,"シリコン塗料 20坪戸建て 足場・養生・3回塗り込み 最も普及しているグレード",2026-05-03
+exterior_painting,silicon_30tsubo,silicon,30,project,800000,1200000,950000,12,"シリコン塗料 30坪戸建て 最も標準的な仕様 日本で最も施工件数が多い",2026-05-03
+exterior_painting,silicon_40tsubo,silicon,40,project,1000000,1400000,1200000,12,"シリコン塗料 40坪戸建て 標準仕様",2026-05-03
+exterior_painting,silicon_50tsubo,silicon,50,project,1200000,1650000,1425000,12,"シリコン塗料 50坪戸建て 標準仕様",2026-05-03
+exterior_painting,silicon_60tsubo,silicon,60,project,1400000,1900000,1650000,12,"シリコン塗料 60坪戸建て 標準仕様",2026-05-03
+exterior_painting,fluorine_20tsubo,fluorine,20,project,800000,1100000,950000,17,"フッ素塗料 20坪戸建て 足場・養生・3回塗り込み 高耐久だが価格は高い",2026-05-03
+exterior_painting,fluorine_30tsubo,fluorine,30,project,1100000,1500000,1300000,17,"フッ素塗料 30坪戸建て 高耐久仕様",2026-05-03
+exterior_painting,fluorine_40tsubo,fluorine,40,project,1350000,1850000,1600000,17,"フッ素塗料 40坪戸建て 高耐久仕様",2026-05-03
+exterior_painting,fluorine_50tsubo,fluorine,50,project,1600000,2200000,1900000,17,"フッ素塗料 50坪戸建て 高耐久仕様",2026-05-03
+exterior_painting,fluorine_60tsubo,fluorine,60,project,1850000,2550000,2200000,17,"フッ素塗料 60坪戸建て 高耐久仕様",2026-05-03
+exterior_painting,inorganic_20tsubo,inorganic,20,project,1000000,1400000,1200000,22,"無機塗料 20坪戸建て 最高耐久性 アクセラやダイヤスーパーセランフレックス等",2026-05-03
+exterior_painting,inorganic_30tsubo,inorganic,30,project,1400000,1900000,1650000,22,"無機塗料 30坪戸建て 最高グレード",2026-05-03
+exterior_painting,inorganic_40tsubo,inorganic,40,project,1700000,2350000,2025000,22,"無機塗料 40坪戸建て 最高グレード",2026-05-03
+exterior_painting,inorganic_50tsubo,inorganic,50,project,2050000,2800000,2425000,22,"無機塗料 50坪戸建て 最高グレード",2026-05-03
+exterior_painting,inorganic_60tsubo,inorganic,60,project,2400000,3250000,2825000,22,"無機塗料 60坪戸建て 最高グレード",2026-05-03
