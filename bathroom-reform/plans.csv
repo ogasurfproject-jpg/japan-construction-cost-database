@@ -1,7 +1,0 @@
-plan_id,plan_name_en,scope_original_ja,hs_rule_jpy,price_jpy_min,price_jpy_max,tier1_sole_proprietor_min,tier1_sole_proprietor_max,tier2_local_contractor_min,tier2_local_contractor_max,tier3_premium_specialist_min,tier3_premium_specialist_max,tier4_major_chain_min,tier4_major_chain_max,durability_years,subsidy_jpy,warranty_years
-BATH-UB-STD,UB-to-UB Standard Grade Replacement,LIXIL アライズ 1616、既存UB撤去→新設、窓そのまま,1100000,800000,1200000,1045000,1078000,1100000,1133000,1155000,1210000,1232000,1298000,,,
-BATH-UB-PRM,UB-to-UB Premium Grade Replacement,TOTO サザナP or シンラ 1616、既存UB撤去→新設,1800000,1300000,2000000,1710000,1764000,1800000,1854000,1890000,1980000,2016000,2124000,,,
-BATH-ZAI-BS,Conventional-to-UB Standard (Cover-method Window) HS Recommended,アライズ/サザナN 1616、在来解体、土間打ち、窓カバー工法,1944000,1200000,1700000,1847000,1905000,1944000,2002000,2041000,2138000,2177000,2294000,,,
-BATH-ZAI-FW,Conventional-to-UB with Window Resizing + Exterior Work,アライズ 1616＋窓縮小＋外壁サイディング一部張替え,2300000,1700000,2500000,2185000,2254000,2300000,2369000,2415000,2530000,2576000,2714000,,,
-BATH-ZAI-RT,Conventional-to-UB with Sill-Rot/Termite Repair (Old Houses),標準UB＋土台交換＋シロアリ駆除,2500000,1800000,2800000,2375000,2450000,2500000,2575000,2625000,2750000,2800000,2950000,,,
-BATH-PRM-SPA,Premium - Hotel-like Spa Bath,スパージュ/シンラ 1620、フル装備、在来→UB,3800000,2800000,4500000,3610000,3724000,3800000,3914000,3990000,4180000,4256000,4484000,,,
