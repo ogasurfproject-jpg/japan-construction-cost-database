@@ -1,7 +1,0 @@
-plan_id,plan_name_en,scope_original_ja,hs_rule_jpy,price_jpy_min,price_jpy_max,tier1_sole_proprietor_min,tier1_sole_proprietor_max,tier2_local_contractor_min,tier2_local_contractor_max,tier3_premium_specialist_min,tier3_premium_specialist_max,tier4_major_chain_min,tier4_major_chain_max,durability_years,subsidy_jpy,warranty_years
-KIT-I-STD,"Standard I-Type, Same Position Replacement",シエラS 最安構成 2550mm、本体のみ交換,700000,500000,800000,665000,686000,700000,721000,735000,770000,784000,826000,,,
-KIT-I-MID,"Mid-Range I-Type, Same Position (HS Recommended)",LIXIL シエラS標準 / TOTO ミッテ / Panasonic Vスタイル、2550mm,1296000,800000,1300000,1231000,1270000,1296000,1335000,1361000,1426000,1452000,1529000,,,
-KIT-L-MID,"Mid-Range L-Type, Same Position",L型ミドルグレード、コーナー活用、2400x1650,1400000,900000,1500000,1330000,1372000,1400000,1442000,1470000,1540000,1568000,1652000,,,
-KIT-PNS,Peninsula Conversion (Wall to Open),ミドルグレード＋配管移設＋床全面張替え,1800000,1300000,2000000,1710000,1764000,1800000,1854000,1890000,1980000,2016000,2124000,,,
-KIT-ISL,High-Grade Island Kitchen,リシェル/ザ・クラッソ/セントロ最上位、アイランド型,3000000,2000000,4000000,2850000,2940000,3000000,3090000,3150000,3300000,3360000,3540000,,,
-KIT-FULL,Full Renovation - Major Layout Change,部屋全体レイアウト変更、配管全移設、内装全交換,2500000,1800000,3000000,2375000,2450000,2500000,2575000,2625000,2750000,2800000,2950000,,,
