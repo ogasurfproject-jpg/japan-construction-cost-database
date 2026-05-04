@@ -1,9 +1,0 @@
-plan_id,plan_name_en,scope_original_ja,hs_rule_jpy,price_jpy_min,price_jpy_max,tier1_sole_proprietor_min,tier1_sole_proprietor_max,tier2_local_contractor_min,tier2_local_contractor_max,tier3_premium_specialist_min,tier3_premium_specialist_max,tier4_major_chain_min,tier4_major_chain_max,durability_years,subsidy_jpy,warranty_years
-ROOF-PT-SI,Roof Painting - Silicon,スレート塗装・棟板金塗装・縁切り,290000,200000,500000,190000,343000,200000,360500,210000,385000,224000,413000,10,,
-ROOF-PT-FL,Roof Painting - Fluorine,スレート塗装・棟板金交換・縁切り,420000,350000,500000,332500,490000,350000,515000,367500,550000,392000,590000,18,,
-ROOF-CV-GL,Cover Method - Galvalume Standard,スレート既存→スーパーガルテクト等ガルバ重ね葺き,1000000,800000,1200000,760000,1176000,800000,1236000,840000,1320000,896000,1416000,30,,
-ROOF-CV-SGL,Cover Method - SGL Steel with Integrated Insulation,SGL断熱一体型ガルバ,1500000,1300000,1800000,1235000,1764000,1300000,1854000,1365000,1980000,1456000,2124000,35,,
-ROOF-RP-SG,Full Replacement - Slate to Galvalume,既存スレート撤去→野地板増し張り→ルーフィング→ガルバ新設,1500000,1200000,1800000,1140000,1764000,1200000,1854000,1260000,1980000,1344000,2124000,30,,
-ROOF-RP-TG,Full Replacement - Ceramic Tile to Galvalume (Weight Reduction),既存瓦撤去（処分費大）→野地板→ガルバ新設,1800000,1500000,2200000,1425000,2156000,1500000,2266000,1575000,2420000,1680000,2596000,30,,
-ROOF-PR-MB,Partial Repair - Ridge Cap Replacement Only,棟板金16m交換+貫板交換,150000,80000,200000,76000,196000,80000,206000,84000,220000,89600,236000,0,,
-ROOF-PR-SK,Partial Repair - Shikkui Plaster Repair,棟漆喰詰め直し15m,90000,50000,150000,47500,147000,50000,154500,52500,165000,56000,177000,0,,
