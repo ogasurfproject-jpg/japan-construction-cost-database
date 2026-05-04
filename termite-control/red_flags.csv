@@ -1,0 +1,14 @@
+flag_code,severity,pattern_en,pattern_ja,reason_en,fraud_rate_pct
+DOOR_TO_DOOR_FREE_INSPECTION,CRITICAL,Unannounced door-to-door 'free inspection today only',アポなし突然訪問『今日だけ無料点検』,90-95% of unannounced door-to-door termite inspections are fraudulent. Legitimate companies do not solicit door-to-door.,92
+OTHER_HOUSE_DAMAGE_SAMPLE,CRITICAL,Showing rotted wood samples from elsewhere as evidence,他家のボロボロ木材を見せて煽る,Pre-staged props brought from another location to manufacture urgency.,
+NO_BASEMENT_PHOTO_OR_FAKE,CRITICAL,No subfloor photos or use of other property's photos,床下写真なし・他家の写真使用,Inability to verify whether the inspected location is the customer's home.,
+URGENT_TODAY_OR_2M_DAMAGE,CRITICAL,'Sign today or face 2M yen damage next year',『今日契約しないと200万被害に』,Pressure tactics designed to bypass cooling-off period and prevent multi-vendor quotes.,
+NO_JTCCA_NO_LICENSED_TECHNICIAN,CRITICAL,Neither JTCCA membership nor licensed technicians,JTCCA加盟も有資格者もいない,Below minimum credibility threshold; no industry accountability.,
+NO_CONTRACT_NO_WARRANTY,CRITICAL,Verbal agreements only - no contract or warranty docs,契約書なし・保証書なしの口約束,Eliminates customer recourse for post-construction issues.,
+QUOTE_2X_3X_MARKET_RATE,HIGH,Quotes 2-3x market rate (over 800K-1M JPY for 30tsubo),相場の2-3倍（¥80-100万超）の見積もり,Market rate for 30tsubo extermination is 130-250K JPY (HS basis 180K).,
+ULTRA_CHEAP_HALF_MARKET,HIGH,'Direct deal' pricing under half of market rate,相場の半額以下『直接取引で安い』,Indicator of diluted chemical concentration or skipped procedures.,
+DRYWOOD_BARRIER_ONLY,HIGH,Soil barrier method proposed for drywood termite,アメリカカンザイなのにバリア工法のみ,Soil treatment is ineffective against drywood termites; suggests vendor incompetence.,
+VAGUE_DAMAGE_NO_NUMBERS,HIGH,Vague damage descriptions without numerical assessments,『床下がヤバい』曖昧表現で数値なし,Absence of damage area (m²) or residual strength assessment indicates lack of professional inspection.,
+ETERNAL_WARRANTY_CLAIM,HIGH,Claims of 'lifetime' or 'semi-permanent' warranty,『永久保証』『半永久』を謳う,Chemical efficacy is physically limited to ~5 years per JTCCA standards.,
+NO_PEST_INSPECTION_LOCATION,MEDIUM,No explanation of inspection access points or under-floor route,点検口位置・床下経路の説明なし,Ambiguity about whether full or partial coverage will be performed.,
+NO_VENTILATION_GUIDANCE,MEDIUM,No ventilation guidance during chemical application,薬剤散布中の室内換気対策未説明,Risk of sick-building symptoms and chemical sensitivity exposure.,
