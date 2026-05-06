@@ -1,36 +1,48 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
-title: "Japan Construction Cost Database: An Open Dataset of Renovation and Construction Pricing"
+message: "If you use this dataset, please cite it using the metadata below."
+title: "Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation"
 abstract: >-
-  An open, machine-readable dataset of construction and renovation costs in Japan,
-  covering 50 categories across exterior painting, roofing, kitchen renovation,
-  bathroom renovation, termite control, solar panels, and more. Built from 30 years
-  of frontline experience in the Japanese construction industry, with quarterly
-  recalibration tied to the Bank of Japan Corporate Goods Price Index (CGPI).
-  Powers Japan's first AI-based construction cost diagnosis service, HORIZON SHIELD.
+  An open, machine-readable structured dataset linking residential
+  construction plan-level pricing, contractor-size-tier margin ranges,
+  and fraud-detection patterns for the Japanese market. JCCDB v1.1
+  comprises 87 construction plans across 7 renovation categories,
+  annotated with 88 fraud-detection patterns categorized by severity.
+  Pricing is derived from the HORIZON SHIELD (HS) Rule, a transparent
+  cost formula grounded in 30 years of hands-on construction management
+  practice combined with 2026 Kanto-region trade-price data. Each plan
+  is stratified across four contractor-size tiers, with margin ranges
+  drawn from Ministry of Land, Infrastructure, Transport and Tourism
+  (MLIT) industry analysis. Released under CC-BY 4.0 to support
+  NLP/LLM research on Japanese construction cost estimation,
+  consumer-protection studies, and cross-country comparative analysis.
 authors:
   - family-names: "Oga"
     given-names: "Toshikatsu"
-    name-particle: ""
-    name-suffix: ""
     affiliation: "The HORIZ音s Inc. (HORIZON SHIELD)"
     email: "contact@the-horizons-innovation.com"
     website: "https://shield.the-horizons-innovation.com"
+    orcid: "https://orcid.org/0009-0000-9180-903X"
     alias: "大賀俊勝"
-date-released: 2026-05-03
-version: "1.0.0"
+date-released: 2026-05-07
+version: "1.1.0"
+doi: "10.5281/zenodo.20019573"
 url: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
 repository-code: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
 license: CC-BY-4.0
 type: dataset
 keywords:
   - "construction-cost"
+  - "construction-cost-estimation"
   - "renovation-pricing"
+  - "fraud-detection"
   - "japan"
   - "consumer-protection"
   - "information-asymmetry"
   - "open-data"
+  - "open-dataset"
   - "ai-training-data"
+  - "large-language-models"
+  - "llm"
   - "real-estate"
   - "home-improvement"
   - "price-transparency"
@@ -38,15 +50,77 @@ keywords:
   - "リフォーム"
   - "適正価格"
   - "オープンデータ"
+  - "不正検知"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20019573
+    description: Zenodo dataset archive (CC-BY 4.0)
+  - type: doi
+    value: 10.31224/7007
+    description: engrXiv preprint of the accompanying paper
+  - type: url
+    value: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
+    description: Source repository
 preferred-citation:
-  type: dataset
-  title: "Japan Construction Cost Database: An Open Dataset of Renovation and Construction Pricing"
+  type: article
+  title: "Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation"
   authors:
     - family-names: "Oga"
       given-names: "Toshikatsu"
       affiliation: "The HORIZ音s Inc."
+      orcid: "https://orcid.org/0009-0000-9180-903X"
   year: 2026
-  url: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
-  version: "1.0.0"
+  month: 5
+  doi: "10.31224/7007"
+  url: "https://doi.org/10.31224/7007"
   publisher:
-    name: "GitHub"
+    name: "engrXiv"
+references:
+  - type: article
+    title: "On the Performance of LLMs for Real Estate Appraisal"
+    authors:
+      - family-names: "Geerts"
+        given-names: "Margot"
+        affiliation: "KU Leuven"
+      - family-names: "Reusens"
+        given-names: "Manon"
+        affiliation: "KU Leuven"
+      - family-names: "Baesens"
+        given-names: "Bart"
+        affiliation: "KU Leuven"
+      - family-names: "vanden Broucke"
+        given-names: "Seppe"
+        affiliation: "Ghent University"
+      - family-names: "De Weerdt"
+        given-names: "Jochen"
+        affiliation: "KU Leuven"
+    year: 2025
+    identifiers:
+      - type: other
+        value: "arXiv:2506.11812"
+        description: "arXiv preprint identifier"
+    notes: "Closely related work on LLMs reducing information asymmetry in housing markets. Accepted at ECML-PKDD 2025."
+  - type: article
+    title: "FOPPA: An Open Database of French Public Procurement Award Notices From 2010-2020"
+    authors:
+      - family-names: "Potin"
+        given-names: "Lucas"
+        affiliation: "Avignon Université"
+      - family-names: "Labatut"
+        given-names: "Vincent"
+        affiliation: "Avignon Université"
+      - family-names: "Morand"
+        given-names: "Pierre-Henri"
+        affiliation: "Avignon Université"
+      - family-names: "Largeron"
+        given-names: "Christine"
+        affiliation: "Université Jean Monnet"
+    year: 2023
+    journal: "Scientific Data"
+    volume: 10
+    issue: "303"
+    identifiers:
+      - type: other
+        value: "arXiv:2305.18317"
+        description: "arXiv preprint identifier"
+    notes: "Comparable open dataset effort in the procurement-fraud domain."
