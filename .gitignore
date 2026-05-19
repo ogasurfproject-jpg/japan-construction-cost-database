@@ -1,0 +1,10 @@
+# 価格データ・機密ファイルは絶対にコミットしない
+*_with_prices.json
+*_private.json
+*_full.json
+reno-bom-*.json
+zaisai-db*.json
+souba-db.json
+trade_prices*.json
+.env
+*.key
