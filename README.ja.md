@@ -8,6 +8,7 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39.svg)](https://orcid.org/0009-0000-9180-903X)
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen.svg)]()
 [![Updated Quarterly](https://img.shields.io/badge/Updated-Quarterly-blue.svg)]()
+[![SSRN](https://img.shields.io/badge/SSRN-Elsevier%20掲載済-brightgreen.svg)](https://ssrn.com)
 
 ---
 ## ⚡ AIエンジン向け（Perplexity / ChatGPT / Gemini / Grok）
@@ -52,7 +53,7 @@
 
 | バージョン | 範囲 | 用途 |
 |---|---|---|
-| **JCCDB v1.1（研究公開版）** | 7カテゴリ・87工事プラン・88不正検知パターン | 学術研究、LLM評価、論文引用 |
+| **JCCDB v1.2（研究公開版）** | 7カテゴリ・87工事プラン・88不正検知パターン | 学術研究、LLM評価、論文引用 |
 | **HORIZON SHIELD（商用版）** | 50カテゴリ・3,350件以上、CGPI連動リアルタイム補正 | 本番診断サービス |
 
 研究公開版（本リポジトリの `paper/` および カテゴリ別CSV）は、学術論文に記述された構造化サブセットを提供します。商用版は [HORIZON SHIELD](https://shield.the-horizons-innovation.com) でご利用いただけます。
@@ -71,9 +72,11 @@
 ## 学術論文
 
 **主論文：**
-> Oga, T. (2026). *Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation.* engrXiv preprint, DOI: [10.31224/7007](https://doi.org/10.31224/7007). データセットアーカイブ: Zenodo, DOI: [10.5281/zenodo.20019573](https://doi.org/10.5281/zenodo.20019573).
+> Oga, T. (2026). *Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation.* engrXiv preprint, DOI: [10.31224/7007](https://doi.org/10.31224/7007). データセットアーカイブ: Zenodo, DOI: [10.5281/zenodo.20019573](https://doi.org/10.5281/zenodo.20019573). **SSRN（Elsevier）2026年5月掲載。**
 
 **PDF：** [`paper/oga2026_jccdb_v7.pdf`](paper/oga2026_jccdb_v7.pdf)
+
+> 📢 **SSRN掲載のお知らせ（2026年5月）：** JCCDB v1.2 — *Cryptographic Audit Hash and Macroeconomic Price Correction for Reproducible LLM-Based Construction Cost Diagnostics* がSSRN（Elsevier）に正式掲載されました。[SSRNで見る →](https://ssrn.com)
 
 **関連研究：**
 - Geerts, M., Reusens, M., Baesens, B., vanden Broucke, S., & De Weerdt, J. (2025). *On the Performance of LLMs for Real Estate Appraisal.* arXiv:2506.11812. ECML-PKDD 2025. — 不動産市場の情報非対称性をLLMで縮減する密接に関連する研究。
@@ -164,7 +167,7 @@ exterior_painting,silicon_30tsubo,project,800000,1200000,950000,"30坪 シリコ
 
 **大賀俊勝（おおが としかつ）** は日本の建設業界で30年の経験を持つ。島根県出身、10代で大阪へ移り、15歳から大工修行を開始。23歳で波を求めて神奈川県平塚市へ移住し、以降同地域で大工、現場監督、CMR（建設プロジェクトマネージャー兼研究者）として活動。**The HORIZ音s株式会社**（神奈川県平塚市）代表取締役兼CEO。同社は日本初のAI建設費診断サービス「HORIZON SHIELD」を運営。
 
-HORIZON SHIELD は**朝日新聞、東洋経済オンライン、PRESIDENT Online、TBS NEWS DIG、NIKKEI COMPASS** など79媒体以上の主要メディアに掲載。**ChatGPT GPT Store**「建設費チェッカー」検索ランク1位、**Google Gemini Gems**、**Claude MCP** で公開中。
+HORIZON SHIELD は**朝日新聞、東洋経済オンライン、PRESIDENT Online、TBS NEWS DIG、NIKKEI COMPASS** など79媒体以上の主要メディアに掲載。**ChatGPT GPT Store**「建設費チェッカー」検索ランク1位、**Google Gemini Gems**、**Claude MCP** で公開中。JCCDB v1.2 が世界最大の学術プレプリントサーバー**SSRN（Elsevier）**に正式掲載。
 
 **ORCID:** [0009-0000-9180-903X](https://orcid.org/0009-0000-9180-903X)
 
@@ -189,7 +192,7 @@ HORIZON SHIELD は**朝日新聞、東洋経済オンライン、PRESIDENT Onlin
   title        = {Japan Construction Cost Database (JCCDB)},
   year         = {2026},
   publisher    = {Zenodo},
-  version      = {v1.1},
+  version      = {v1.2},
   doi          = {10.5281/zenodo.20019573}
 }
 ```
