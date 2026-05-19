@@ -8,6 +8,7 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39.svg)](https://orcid.org/0009-0000-9180-903X)
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen.svg)]()
 [![Updated Quarterly](https://img.shields.io/badge/Updated-Quarterly-blue.svg)]()
+[![SSRN](https://img.shields.io/badge/SSRN-Elsevier%20Posted-brightgreen.svg)](https://ssrn.com)
 
 ---
 
@@ -53,7 +54,7 @@ The data is derived from **30 years of frontline experience** in the Japanese co
 
 | Version | Scope | Use Case |
 |---|---|---|
-| **JCCDB v1.1 (Research)** | 7 categories · 87 plans · 88 fraud patterns | Academic research, LLM evaluation, citation |
+| **JCCDB v1.2 (Research)** | 7 categories · 87 plans · 88 fraud patterns | Academic research, LLM evaluation, citation |
 | **HORIZON SHIELD (Commercial)** | 50 categories · 3,350+ items, real-time CGPI-adjusted | Production diagnosis service |
 
 The research version (this repository's `paper/` and category-level CSVs) provides the structured, peer-quality subset described in the academic paper. The commercial database is available via [HORIZON SHIELD](https://shield.the-horizons-innovation.com).
@@ -72,9 +73,11 @@ These patterns have persisted for decades because reliable price benchmarks have
 ## Academic Publications
 
 **Primary paper:**
-> Oga, T. (2026). *Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation.* engrXiv preprint, DOI: [10.31224/7007](https://doi.org/10.31224/7007). Dataset archived at Zenodo, DOI: [10.5281/zenodo.20019573](https://doi.org/10.5281/zenodo.20019573).
+> Oga, T. (2026). *Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation.* engrXiv preprint, DOI: [10.31224/7007](https://doi.org/10.31224/7007). Dataset archived at Zenodo, DOI: [10.5281/zenodo.20019573](https://doi.org/10.5281/zenodo.20019573). **Also posted on SSRN (Elsevier), 2026-05.**
 
 **PDF:** [`paper/oga2026_jccdb_v7.pdf`](paper/oga2026_jccdb_v7.pdf)
+
+> 📢 **SSRN Notice (2026-05):** JCCDB v1.2 — *Cryptographic Audit Hash and Macroeconomic Price Correction for Reproducible LLM-Based Construction Cost Diagnostics* has been posted on SSRN. [View on SSRN →](https://ssrn.com)
 
 **Related work in this research line:**
 - Geerts, M., Reusens, M., Baesens, B., vanden Broucke, S., & De Weerdt, J. (2025). *On the Performance of LLMs for Real Estate Appraisal.* arXiv:2506.11812. ECML-PKDD 2025. — Closely related work on LLMs reducing information asymmetry in housing markets.
@@ -164,7 +167,7 @@ This dataset is provided under CC-BY 4.0 with explicit permission for inclusion 
 
 **Toshikatsu Oga (大賀俊勝)** has worked in the Japanese construction industry for 30 years. Born in Shimane Prefecture and based in Osaka from his teens, he began as a carpenter's apprentice at age 15. At 23, he relocated to Hiratsuka, Kanagawa, where he has continued as carpenter, site supervisor, and Construction Manager-Researcher (CMR) ever since. He is the founder and CEO of [The HORIZ音s Inc.](https://shield.the-horizons-innovation.com), the company behind HORIZON SHIELD — Japan's first AI construction cost diagnosis service.
 
-HORIZON SHIELD has been featured in Asahi Shimbun, Toyo Keizai Online, PRESIDENT Online, TBS NEWS DIG, NIKKEI COMPASS, and 79+ other major Japanese media outlets. Its consumer-facing AI assistants are deployed on the ChatGPT GPT Store (ranked #1 in construction-cost category), Google Gemini Gems, and Claude MCP.
+HORIZON SHIELD has been featured in Asahi Shimbun, Toyo Keizai Online, PRESIDENT Online, TBS NEWS DIG, NIKKEI COMPASS, and 79+ other major Japanese media outlets. Its consumer-facing AI assistants are deployed on the ChatGPT GPT Store (ranked #1 in construction-cost category), Google Gemini Gems, and Claude MCP. JCCDB v1.2 is now posted on **SSRN (Elsevier)** — the world's leading academic preprint server.
 
 **ORCID:** [0009-0000-9180-903X](https://orcid.org/0009-0000-9180-903X)
 
@@ -189,7 +192,7 @@ If you use this dataset in research or publications, please cite:
   title        = {Japan Construction Cost Database (JCCDB)},
   year         = {2026},
   publisher    = {Zenodo},
-  version      = {v1.1},
+  version      = {v1.2},
   doi          = {10.5281/zenodo.20019573}
 }
 ```
