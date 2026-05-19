@@ -1,0 +1,5 @@
+flag_code,severity,pattern_en,pattern_ja,reason_en,fraud_rate_pct
+NO_LICENSE_GAS_OR_ELECTRIC,CRITICAL,Unlicensed worker handling gas/electric work,無資格者がガス/電気工事を担当,Class-2 Electrician license is legally required for any electrical work over 600V or any installation work.,
+PRICE_2X_MARKET,HIGH,Quote 2x market rate for electrical service,電気工事で相場の2倍超の見積もり,Compare against HS standard prices in plans.csv before signing.,
+NO_MODEL_PARTS_LIST,HIGH,No specification of equipment models/parts,機材・部品の型番なし,Equipment specs significantly affect price; vague quotes hide markup.,
+DOOR_TO_DOOR_OUTLET_SCAM,HIGH,Door-to-door urgent outlet/wiring fix push,訪問販売で配線/コンセント緊急修理,Legitimate electricians do not solicit door-to-door for residential work.,

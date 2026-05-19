@@ -1,0 +1,9 @@
+plan_id,plan_name_en,scope_original_ja,hs_rule_jpy,price_jpy_min,price_jpy_max,tier1_sole_proprietor_min,tier1_sole_proprietor_max,tier2_local_contractor_min,tier2_local_contractor_max,tier3_premium_specialist_min,tier3_premium_specialist_max,tier4_major_chain_min,tier4_major_chain_max,durability_years,subsidy_jpy,warranty_years
+WIN-IW-K,Inner Window x1 - Waist Window (S-Grade Low-E),LIXIL インプラス 170x120 Low-E複層ガラス・アルゴンガス入り,240000,60000,250000,228000,235000,240000,247000,252000,264000,269000,283000,,34000,
+WIN-IW-H,Inner Window x1 - Sliding Door (S-Grade Low-E),LIXIL インプラス 170x200 Low-E複層ガラス・アルゴンガス入り,496000,100000,400000,471000,486000,496000,511000,521000,546000,556000,585000,,52000,
+WIN-IW-6,Inner Window - Whole House 6 Units (S-Grade),掃き出し3+腰窓3、Sグレード、Low-E複層ガラス・アルゴンガス入り,1462000,900000,1500000,1389000,1433000,1462000,1506000,1535000,1608000,1637000,1725000,,258000,
+WIN-CV-K,Cover Method x1 - Waist Window (S-Grade),YKK AP マドリモ断熱窓 170x120 Sグレード,270000,150000,400000,256000,265000,270000,278000,284000,297000,302000,319000,,92000,
+WIN-CV-H,Cover Method x1 - Sliding Door (S-Grade),YKK AP マドリモ断熱窓 170x200 Sグレード,360000,250000,500000,342000,353000,360000,371000,378000,396000,403000,425000,,124000,
+WIN-CV-6,Cover Method - Whole House 6 Units (S-Grade),掃き出し3+腰窓3、Sグレード、YKK AP マドリモ,1890000,1500000,2200000,1795000,1852000,1890000,1947000,1985000,2079000,2117000,2230000,,648000,
+WIN-GL-10,All-Window Glass Replacement (Vacuum Glass S-Grade),AGC 真空ガラス スペーシア 10箇所,960000,500000,1500000,912000,941000,960000,989000,1008000,1056000,1075000,1133000,,230000,
+WIN-HT-6,Demolition Method - All Windows Full Replacement,壁壊して枠ごと新規・外壁復旧込み・6箇所,3500000,1500000,4000000,3325000,3430000,3500000,3605000,3675000,3850000,3920000,4130000,,480000,

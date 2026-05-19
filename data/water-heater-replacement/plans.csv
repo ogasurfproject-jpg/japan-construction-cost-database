@@ -1,0 +1,8 @@
+plan_id,plan_name_en,scope_original_ja,hs_rule_jpy,price_jpy_min,price_jpy_max,tier1_sole_proprietor_min,tier1_sole_proprietor_max,tier2_local_contractor_min,tier2_local_contractor_max,tier3_premium_specialist_min,tier3_premium_specialist_max,tier4_major_chain_min,tier4_major_chain_max,durability_years,subsidy_jpy,warranty_years
+WH-GAS-CV,Conventional Gas Water Heater 24-Go Replacement,ノーリツ GT-2472AW、既存撤去→新設,180000,120000,200000,171000,176000,180000,185000,189000,198000,202000,212000,,0,
+WH-GAS-EJ,Eco-Jozu (High-Efficiency Gas) 24-Go Replacement,ノーリツ GT-C2472AW BL、省エネ20%UP,250000,150000,280000,238000,245000,250000,258000,262000,275000,280000,295000,,0,
+WH-EC-370,Eco-Cute (Heat Pump) 370L Standard Replacement,三菱 SRT-S377U or ダイキン EQ37ZFTV,850000,400000,600000,808000,833000,850000,876000,892000,935000,952000,1003000,,100000,
+WH-EC-460,Eco-Cute 460L Standard (Detached House Recommended),三菱 SRT-S467U、フルオート標準,1014000,450000,700000,963000,994000,1014000,1044000,1065000,1115000,1136000,1197000,,100000,
+WH-EC-460H,Eco-Cute 460L High-Grade,三菱 SRT-S467UA or ダイキン EQ46ZFTV(X),1250000,600000,900000,1188000,1225000,1250000,1288000,1312000,1375000,1400000,1475000,,100000,
+WH-NEW-G2E,Gas to Eco-Cute Conversion (Major Construction),既存ガス給湯器撤去+エコキュート新設+基礎工事+200V工事,1200000,550000,850000,1140000,1176000,1200000,1236000,1260000,1320000,1344000,1416000,,100000,
+WH-HYBRID,Hybrid Water Heater (Gas + Heat Pump),ノーリツ ハイブリッドGTH or リンナイ RUFH-E,1000000,500000,800000,950000,980000,1000000,1030000,1050000,1100000,1120000,1180000,,130000,

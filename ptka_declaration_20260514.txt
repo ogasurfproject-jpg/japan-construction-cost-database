@@ -1,0 +1,18 @@
+HORIZON SHIELD — PTKA Protocol Declaration
+Date: 2026-05-14
+Author: Toshikatsu Oga / The HORIZ音s Inc.
+
+We hereby declare that HORIZON SHIELD is the world's first 
+commercial service to apply OpenTimestamps Bitcoin blockchain 
+anchoring to consumer-facing construction cost diagnostic reports,
+enabling homeowners to obtain cryptographically verifiable 
+price evidence BEFORE negotiating with contractors.
+
+This Pre-Transaction Knowledge Anchoring (PTKA) protocol 
+constitutes a novel application of Bitcoin timestamping to 
+consumer protection in information-asymmetric markets.
+
+SHA-256 audit hash system: active since 2026-03
+OTS Bitcoin anchoring: active since 2026-05
+Service URL: https://shield.the-horizons-innovation.com
+JCCDB Paper: https://doi.org/10.31224/7007
