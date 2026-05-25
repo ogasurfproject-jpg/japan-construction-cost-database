@@ -2,19 +2,24 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it using the metadata below."
 title: "Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation"
 abstract: >-
-  An open, machine-readable structured dataset linking residential
-  construction plan-level pricing, contractor-size-tier margin ranges,
-  and fraud-detection patterns for the Japanese market. JCCDB v1.1
+  An open, machine-readable construction-cost dataset for the Japanese
+  market. JCCDB v2.0 provides an item schema of 65,729 items across 398
+  categories — item names, categories, and units only, with no embedded
+  prices — released in two tiers: a hand-verified core of 11,250 items
+  (jccdb-v2-schema.csv, CC BY 4.0) and an extended set of 54,479 items
+  (jccdb-v2-extended.csv, CC BY-NC 4.0). It extends JCCDB v1.1, which
   comprises 87 construction plans across 7 renovation categories,
   annotated with 88 fraud-detection patterns categorized by severity.
-  Pricing is derived from the HORIZON SHIELD (HS) Rule, a transparent
-  cost formula grounded in 30 years of hands-on construction management
-  practice combined with 2026 Kanto-region trade-price data. Each plan
-  is stratified across four contractor-size tiers, with margin ranges
-  drawn from Ministry of Land, Infrastructure, Transport and Tourism
-  (MLIT) industry analysis. Released under CC-BY 4.0 to support
+  Pricing in the v1.1 layer is derived from the HORIZON SHIELD (HS) Rule,
+  a transparent cost formula grounded in 30 years of hands-on
+  construction management practice combined with 2026 Kanto-region
+  trade-price data, with each plan stratified across four contractor-size
+  tiers and margin ranges drawn from Ministry of Land, Infrastructure,
+  Transport and Tourism (MLIT) industry analysis. Released to support
   NLP/LLM research on Japanese construction cost estimation,
   consumer-protection studies, and cross-country comparative analysis.
+  Methodology declaration time-stamped to Bitcoin block #949356 via
+  OpenTimestamps.
 authors:
   - family-names: "Oga"
     given-names: "Toshikatsu"
@@ -23,12 +28,13 @@ authors:
     website: "https://shield.the-horizons-innovation.com"
     orcid: "https://orcid.org/0009-0000-9180-903X"
     alias: "大賀俊勝"
-date-released: 2026-05-07
-version: "1.1.0"
-doi: "10.5281/zenodo.20019573"
+date-released: 2026-05-19
+version: "2.0.0"
 url: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
 repository-code: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
-license: CC-BY-4.0
+license:
+  - CC-BY-4.0
+  - CC-BY-NC-4.0
 type: dataset
 keywords:
   - "construction-cost"
@@ -54,13 +60,13 @@ keywords:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.20019573
-    description: Zenodo dataset archive (CC-BY 4.0)
+    description: JCCDB v1.x companion dataset archive, Zenodo (CC BY 4.0)
   - type: doi
     value: 10.31224/7007
     description: engrXiv preprint of the accompanying paper
   - type: url
     value: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
-    description: Source repository
+    description: Source repository (JCCDB v2.0)
 preferred-citation:
   type: article
   title: "Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation"
