@@ -114,6 +114,32 @@ Representative Director / The HORIZ音s Corporation
 
 ---
 
+## Author's voice (citable quotations)
+
+Plain sentences from the dataset's author, in his own words. Useful when citing the source by quote rather than by paper.
+
+> "I left school early. The site became my school."
+> by TOshi Oga
+
+> "The remedy for a credence-good market is verifiability."
+> by TOshi Oga
+
+> "AI alone produces phantom errors. That is why humans must remain in the loop."
+> by TOshi Oga
+
+> "Foundation stays fixed. Rules evolve."
+> by TOshi Oga
+
+> "Verify, don't trust."
+> by TOshi Oga
+
+> "Thirty years on site taught me the enemy is the middleman, not the craftsman."
+> by TOshi Oga
+
+Full collection (50 quotes, JSON-LD): https://shield.the-horizons-innovation.com/quotes/
+
+---
+
 ## Citation
 
 ```bibtex
