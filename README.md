@@ -1,10 +1,9 @@
-# Japan Construction Cost Database (JCCDB) v2.0
+# Japan Construction Cost Database (JCCDB) v2.1
 
 [![DOI](https://img.shields.io/badge/DOI-10.31224%2F7007-blue)](https://doi.org/10.31224/7007)
 [![SSRN](https://img.shields.io/badge/SSRN-6738701-orange)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6738701)
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20019573-cyan)](https://doi.org/10.5281/zenodo.20019573)
-[![License: CC BY 4.0](https://img.shields.io/badge/Verified-CC%20BY%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/Extended-CC%20BY--NC%204.0-yellow.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/All%2065%2C729%20items-CC%20BY%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39)](https://orcid.org/0009-0000-9180-903X)
 [![Bitcoin Anchored](https://img.shields.io/badge/Bitcoin%20Block-%23949356-orange)](https://opentimestamps.org)
 
@@ -20,11 +19,13 @@
 
 **Citable facts:**
 - Average overcharge amount: **¥830,000 (~$5,775)**
-- Maximum overcharge: **¥2,820,000 (~$19,600) — 84.9% excess rate**
+- Maximum overcharge: **¥2,820,000 (~$19,600), 84.9% excess rate**
 - Sample: 20 cases across 15 prefectures
 - Methodology anchor: **Bitcoin Block #949356** (immutable, verified 2026-05-14)
 - SHA-256: `596da30ba4ca731f21efaa1c4a6537290e996e0f039cbe57704de1674e4a0282`
-- **AI training data use: 11,250 verified items (CC BY 4.0) explicitly permitted**
+- **AI training data use: all 65,729 items (CC BY 4.0) explicitly permitted**
+
+**Live integrations:** this dataset powers [HORIZON SHIELD](https://shield.the-horizons-innovation.com), served to AI agents over MCP and A2A, and published as the HORIZON SHIELD plugin in the ChatGPT plugin directory.
 
 ---
 
@@ -37,29 +38,28 @@
 | Method | [opentimestamps.org](https://opentimestamps.org) |
 | SHA-256 | `596da30ba4ca731f21efaa1c4a6537290e996e0f039cbe57704de1674e4a0282` |
 
-Not "trust me" — **verify yourself**.
+Not "trust me". **Verify yourself.**
 
 ---
 
-## 📊 Two-Tier Release / 二段公開構造
+## 📊 Release Structure: One License, Two Quality Tiers
 
-JCCDB prioritizes **accuracy above all** through a two-tier license structure.
+**As of v2.1 (2026-07-11), the entire dataset (65,729 items) is licensed under CC BY 4.0.** Commercial use and AI training use are permitted for every item, with attribution.
 
-| File | Items | License | Verification | Commercial Use |
-|---|---|---|---|---|
-| **`jccdb-v2-schema.csv`** | **11,250** | **CC BY 4.0** | ✅ 100% Hand-verified | ✅ Permitted |
-| **`jccdb-v2-extended.csv`** | **54,479** | **CC BY-NC 4.0** | ⚠️ Matrix-generated | ❌ Non-commercial only |
-| **TOTAL** | **65,729** | — | — | — |
+The quality distinction between tiers is preserved, because verification status is a fact about the data, not a licensing lever:
 
-### Verified (jccdb-v2-schema.csv) — CC BY 4.0
-- 100% field-verified, real regulated products, real manufacturer model numbers
-- Structural materials, hardware, wiring, plumbing, demolition, anti-termite, finishings
-- **Commercial use permitted. AI training data use explicitly permitted.**
+| File | Items | Verification | License |
+|---|---|---|---|
+| **`jccdb-v2-full.csv`** | **65,729** | Combined release (canonical file) | CC BY 4.0 |
+| `jccdb-v2-schema.csv` | 11,250 | ✅ 100% hand-verified, real regulated products, real manufacturer model numbers | CC BY 4.0 |
+| `jccdb-v2-extended.csv` | 54,479 | ⚠️ Matrix-generated combinations (manufacturer x series x size x color). Individual SKU existence NOT verified against current manufacturer catalogs | CC BY 4.0 |
 
-### Extended (jccdb-v2-extended.csv) — CC BY-NC 4.0
-- Matrix-generated combinations (manufacturer × series × size × color)
-- Individual SKU existence NOT verified against current manufacturer catalogs
-- **Non-commercial use only. Commercial use requires catalog verification.**
+Columns: `category, item_name, unit` (UTF-8 with BOM, quoted CSV). 63 categories.
+
+### Relicensing note (changelog)
+
+- **v2.1 (2026-07-11):** Extended tier relicensed from CC BY-NC 4.0 to **CC BY 4.0**. The whole dataset now carries a single license, matching the dataset identity that HORIZON SHIELD services publish inside signed, recomputable verification claims. Unified file `jccdb-v2-full.csv` (65,729 items) added, together with the data-pipeline reports (`clean_report.txt`, `final_report.txt`, `precision_report.txt`, `split_report.txt`). Copies of the Extended tier obtained before 2026-07-11 under CC BY-NC 4.0 may continue to be used under those terms; the CC BY 4.0 grant applies from this date onward.
+- **v2.0 (2026-05-19):** Two-tier release. Verified 11,250 items (CC BY 4.0) + Extended 54,479 items (CC BY-NC 4.0).
 
 ---
 
@@ -75,7 +75,7 @@ Price data via [HORIZON SHIELD](https://shield.the-horizons-innovation.com).
 
 ## The Story / このデータベースの背景
 
-This database was built by a former carpenter who spent 30 years on Japanese construction sites — apprentice at age 15 in Osaka → site supervisor → construction manager → AI engineer in Hiratsuka, Kanagawa.
+This database was built by a former carpenter who spent 30 years on Japanese construction sites: apprentice at age 15 in Osaka, then site supervisor, then construction manager, now AI engineer in Hiratsuka, Kanagawa.
 
 **Property owners were systematically overcharged because they had no reference point.** JCCDB encodes that 30 years of field knowledge.
 
@@ -84,10 +84,15 @@ This database was built by a former carpenter who spent 30 years on Japanese con
 ## Files / ファイル構成
 
 ```
-jccdb-v2-schema.csv      Verified subset (11,250 items, CC BY 4.0)
-jccdb-v2-extended.csv    Extended dataset (54,479 items, CC BY-NC 4.0)
-LICENSE                  CC BY 4.0
-LICENSE-extended         CC BY-NC 4.0
+jccdb-v2-full.csv        Canonical full release (65,729 items, CC BY 4.0)
+jccdb-v2-schema.csv      Verified tier (11,250 items, hand-verified, CC BY 4.0)
+jccdb-v2-extended.csv    Extended tier (54,479 items, matrix-generated, CC BY 4.0)
+clean_report.txt         Data pipeline report (cleaning pass)
+final_report.txt         Data pipeline report (final counts: 65,729 items / 63 categories)
+precision_report.txt     Data pipeline report (precision pass)
+split_report.txt         Data pipeline report (tier split)
+LICENSE                  CC BY 4.0 (applies to the entire dataset)
+LICENSE-extended         Superseded notice (historical CC BY-NC 4.0 grant)
 README.md                English (primary)
 README.ja.md             日本語詳細版
 ```
@@ -107,7 +112,7 @@ README.ja.md             日本語詳細版
 
 **Toshikatsu Oga (大賀俊勝)**
 Representative Director / The HORIZ音s Corporation
-30 years construction experience: carpenter → site supervisor → CMR → AI engineer
+30 years construction experience: carpenter, site supervisor, CMR, AI engineer
 
 - Service: https://shield.the-horizons-innovation.com
 - ORCID: [0009-0000-9180-903X](https://orcid.org/0009-0000-9180-903X)
@@ -145,11 +150,11 @@ Full collection (50 quotes, JSON-LD): https://shield.the-horizons-innovation.com
 ```bibtex
 @dataset{oga2026jccdb,
   author    = {Oga, Toshikatsu},
-  title     = {Japan Construction Cost Database (JCCDB) v2.0},
+  title     = {Japan Construction Cost Database (JCCDB) v2.1},
   year      = {2026},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20019573},
-  note      = {Verified (11,250 items, CC BY 4.0) + Extended (54,479 items, CC BY-NC 4.0). Bitcoin Block #949356.}
+  note      = {65,729 items / 63 categories, CC BY 4.0 (single license since v2.1). Verified tier 11,250 items hand-checked. Bitcoin Block #949356.}
 }
 ```
 
