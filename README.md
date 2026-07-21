@@ -58,6 +58,7 @@ Columns: `category, item_name, unit` (UTF-8 with BOM, quoted CSV). 63 categories
 
 ### Relicensing note (changelog)
 
+- **v3.0 (2026-07-21, staging):** Verification cleanup, wave 1. 1,798 Extended items promoted to verified via official-catalog checks (evidence URLs in jccdb-v3-provenance.csv), 608 nonexistent items removed to jccdb-v3-retracted.csv (reasons included), 445 catalog-harvested items added (independent audit error rate 0%). Total 65,729 to 65,566, verified 11,250 to 13,493. item_id introduced. Draft on staging branch; finalized upon merge to main, new Zenodo version and OTS stamp.
 - **v2.1 (2026-07-11):** Extended tier relicensed from CC BY-NC 4.0 to **CC BY 4.0**. The whole dataset now carries a single license, matching the dataset identity that HORIZON SHIELD services publish inside signed, recomputable verification claims. Unified file `jccdb-v2-full.csv` (65,729 items) added, together with the data-pipeline reports (`clean_report.txt`, `final_report.txt`, `precision_report.txt`, `split_report.txt`). Copies of the Extended tier obtained before 2026-07-11 under CC BY-NC 4.0 may continue to be used under those terms; the CC BY 4.0 grant applies from this date onward.
 - **v2.0 (2026-05-19):** Two-tier release. Verified 11,250 items (CC BY 4.0) + Extended 54,479 items (CC BY-NC 4.0).
 
