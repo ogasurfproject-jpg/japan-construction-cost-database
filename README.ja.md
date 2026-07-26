@@ -60,6 +60,7 @@
 
 ### 再ライセンスの記録（changelog）
 
+- **v3.1（2026-07-27・staging）:** 重複整理とカタログ拡張。カテゴリ・品名・単位がすべて一致する重複589行を除去し、元の行番号とともに `jccdb-v3-duplicates-removed.csv` に記録。未収録だった実在品目543件（保険・申請費、労務単価、鉄骨形鋼、鉄筋、電線管、地盤改良、割増率ほか）を自社の原価ファイルから追加し、`jccdb-v3-added-20260727.csv` に品目ごとの出典ファイルを記録。追加後の検証で、収穫した品目のうち28件が v3.0 で非実在と証明済みのものと一致することが判明したため差し戻し、元の除去理由とともに `jccdb-v3-rejected-readd-20260727.csv` に記録した（正味543件）。総品目65,566→65,520、ユニーク64,977→65,520（重複ゼロ）、カテゴリ63→72、検証済み13,493→13,207、Extended 52,073→52,313。verified と extended は full から再構築し、verified＋extended＝full が厳密に一致することを確認。本エントリはstaging草案であり、**公開・DOI付きの正本は v2.1 のまま**。マージ・再刻印・Zenodo新版をもって確定する。
 - **v3.0（2026-07-21・staging）:** 検証大掃除第1弾。Extended層1,798品目をカタログ照合で検証済みへ昇格（jccdb-v3-provenance.csvに全件証拠URL）、非実在608品目をjccdb-v3-retracted.csvへ除去（全件理由付き）、公式カタログ収穫445品目を追加（独立監査エラー率0%）。総品目65,729→65,566、検証済み11,250→13,493。item_id導入。本エントリはstagingブランチ上の草案であり、mainへのマージ・Zenodo新版・OTS刻印をもって確定する。
 - **v2.1（2026-07-11）:** Extended層を CC BY-NC 4.0 から **CC BY 4.0** に変更し、全品目を単一ライセンスに統一。HORIZON SHIELD が署名付き検証クレーム内で公開してきたデータセット表記と完全に一致させました。正本ファイル `jccdb-v2-full.csv`（65,729品目）とデータ整備レポート4本を追加。2026-07-11以前に CC BY-NC 4.0 で取得された複製は当該条件のまま利用継続可能です。
 - **v2.0（2026-05-19）:** 二段公開。Verified 11,250品目（CC BY 4.0）+ Extended 54,479品目（CC BY-NC 4.0）。
@@ -99,7 +100,7 @@ jccdb-v2-full.csv        正本・統合版（65,729品目・CC BY 4.0）
 jccdb-v2-schema.csv      Verified層（11,250品目・現場検証済み・CC BY 4.0）
 jccdb-v2-extended.csv    Extended層（54,479品目・マトリクス生成・CC BY 4.0）
 clean_report.txt         データ整備レポート（クリーニング）
-final_report.txt         データ整備レポート（最終集計: 65,729品目 / 63カテゴリ）
+final_report.txt         データ整備レポート（最終集計: 65,520品目 / 72カテゴリ）
 precision_report.txt     データ整備レポート（精度向上）
 split_report.txt         データ整備レポート（層分割）
 LICENSE                  CC BY 4.0（データセット全体に適用）
@@ -141,7 +142,7 @@ HORIZON SHIELDは**79媒体以上**のメディアに掲載。**ChatGPT GPT Stor
   year         = {2026},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.20019573},
-  note         = {65,729品目 / 63カテゴリ, CC BY 4.0 (v2.1より単一ライセンス). Verified層11,250品目は現場検証済み. Bitcoin Block #949356.}
+  note         = {65,520品目 / 72カテゴリ, CC BY 4.0 (v2.1より単一ライセンス). Verified層11,250品目は現場検証済み. Bitcoin Block #949356.}
 }
 ```
 

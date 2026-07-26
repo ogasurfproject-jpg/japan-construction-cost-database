@@ -54,10 +54,11 @@ The quality distinction between tiers is preserved, because verification status 
 | `jccdb-v2-schema.csv` | 11,250 | ✅ 100% hand-verified, real regulated products, real manufacturer model numbers | CC BY 4.0 |
 | `jccdb-v2-extended.csv` | 54,479 | ⚠️ Matrix-generated combinations (manufacturer x series x size x color). Individual SKU existence NOT verified against current manufacturer catalogs | CC BY 4.0 |
 
-Columns: `category, item_name, unit` (UTF-8 with BOM, quoted CSV). 63 categories.
+Columns: `category, item_name, unit` (UTF-8 with BOM, quoted CSV). 72 categories (v3.1).
 
 ### Relicensing note (changelog)
 
+- **v3.1 (2026-07-27, staging):** Duplicate cleanup and catalog extension. 589 rows whose category, item_name and unit were all identical to an earlier row were removed and recorded with their source row numbers in `jccdb-v3-duplicates-removed.csv`. 543 real items not previously present (insurance and permit fees, labour rates, steel sections, rebar, electrical conduit, ground improvement, surcharge rates and others) were added from the project's own cost files and recorded in `jccdb-v3-added-20260727.csv` with the source file for each. A verification pass then found that 28 of the harvested items matched entries already proven nonexistent in v3.0; these were rejected and logged with their original retraction reasons in `jccdb-v3-rejected-readd-20260727.csv`, leaving 543 additions. Total 65,566 to 65,520, unique rows 64,977 to 65,520 (zero duplicates), categories 63 to 72, verified 13,493 to 13,207, extended 52,073 to 52,313. The verified and extended tiers were rebuilt from the full file so that verified + extended = full exactly. Draft on staging; the published canonical release remains v2.1 until this is merged, re-stamped and given a new Zenodo version.
 - **v3.0 (2026-07-21, staging):** Verification cleanup, wave 1. 1,798 Extended items promoted to verified via official-catalog checks (evidence URLs in jccdb-v3-provenance.csv), 608 nonexistent items removed to jccdb-v3-retracted.csv (reasons included), 445 catalog-harvested items added (independent audit error rate 0%). Total 65,729 to 65,566, verified 11,250 to 13,493. item_id introduced. Draft on staging branch; finalized upon merge to main, new Zenodo version and OTS stamp.
 - **v2.1 (2026-07-11):** Extended tier relicensed from CC BY-NC 4.0 to **CC BY 4.0**. The whole dataset now carries a single license, matching the dataset identity that HORIZON SHIELD services publish inside signed, recomputable verification claims. Unified file `jccdb-v2-full.csv` (65,729 items) added, together with the data-pipeline reports (`clean_report.txt`, `final_report.txt`, `precision_report.txt`, `split_report.txt`). Copies of the Extended tier obtained before 2026-07-11 under CC BY-NC 4.0 may continue to be used under those terms; the CC BY 4.0 grant applies from this date onward.
 - **v2.0 (2026-05-19):** Two-tier release. Verified 11,250 items (CC BY 4.0) + Extended 54,479 items (CC BY-NC 4.0).
@@ -89,7 +90,7 @@ jccdb-v2-full.csv        Canonical full release (65,729 items, CC BY 4.0)
 jccdb-v2-schema.csv      Verified tier (11,250 items, hand-verified, CC BY 4.0)
 jccdb-v2-extended.csv    Extended tier (54,479 items, matrix-generated, CC BY 4.0)
 clean_report.txt         Data pipeline report (cleaning pass)
-final_report.txt         Data pipeline report (final counts: 65,729 items / 63 categories)
+final_report.txt         Data pipeline report (final counts: 65,520 items / 72 categories)
 precision_report.txt     Data pipeline report (precision pass)
 split_report.txt         Data pipeline report (tier split)
 LICENSE                  CC BY 4.0 (applies to the entire dataset)
@@ -155,7 +156,7 @@ Full collection (50 quotes, JSON-LD): https://shield.the-horizons-innovation.com
   year      = {2026},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20019573},
-  note      = {65,729 items / 63 categories, CC BY 4.0 (single license since v2.1). Verified tier 11,250 items hand-checked. Bitcoin Block #949356.}
+  note      = {65,520 items / 72 categories, CC BY 4.0 (single license since v2.1). Verified tier 11,250 items hand-checked. Bitcoin Block #949356.}
 }
 ```
 

@@ -1,0 +1,544 @@
+﻿category,item_name,unit,source_file
+フローリング・床材,複合フローリング 12mm（1m²）,m²,data/reno-bom-80sqm-v2.json
+諸経費・保険・申請,建設工事保険（1億円補償 1現場）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,賠償責任保険（年間 中小業者）,年,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,住宅瑕疵担保保険（1棟）,棟,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,リフォーム瑕疵保険（1件）,件,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,完成保証保険（1件）,件,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,労災保険（現場 1人月）,人月,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,火災保険（建物 10年）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,地震保険（1年）,年,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,メーカー保証延長（5年→10年）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,長期優良住宅認定申請費,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,住宅性能評価（設計評価）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,住宅性能評価（建設評価）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,BELS評価申請費,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,建築確認申請（木造2階 100m2以下）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,建築確認申請（木造2階 100m2超）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,中間検査申請費,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,完了検査申請費,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,地盤保証（20年）,式,data/reno-bom-80sqm-v4.json
+仮設・足場資材,現場養生清掃費（1日）,日,data/reno-bom-80sqm-v4.json
+労務単価,竣工清掃費（1m2）,m2,data/reno-bom-80sqm-v4.json
+エアコン・空調,エアコンクリーニング（1台）,台,data/reno-bom-80sqm-v4.json
+労務単価,施工管理アプリ（月額）,月,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,住宅ローン保証料（借入3000万 一括）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,火災保険（35年 木造）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,地震保険（年額）,年,data/reno-bom-80sqm-v4.json
+労務単価,印紙税（工事請負 1億未満）,式,data/reno-bom-80sqm-v4.json
+労務単価,印紙税（工事請負 5000万未満）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,溶接検査 超音波探傷（1箇所）,箇所,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,溶接検査 外観（1箇所）,箇所,data/reno-bom-80sqm-v4.json
+断熱材,熱画像診断 断熱欠陥（1棟）,棟,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,建設業許可申請費（一般 知事許可）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,建設業許可申請費（特定 知事許可）,式,data/reno-bom-80sqm-v4.json
+労務単価,1級施工管理技士 資格取得費,式,data/reno-bom-80sqm-v4.json
+労務単価,2級施工管理技士 資格取得費,式,data/reno-bom-80sqm-v4.json
+解体・廃材処理,解体工事施工技士 資格取得費,式,data/reno-bom-80sqm-v4.json
+労務単価,職長・安全衛生責任者 講習費,式,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（オーク 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（オーク 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（オーク 18mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（ウォールナット 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（ウォールナット 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（ウォールナット 18mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（チェリー 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（チェリー 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（チェリー 18mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（メープル 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（メープル 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（メープル 18mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（バンブー 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（バンブー 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（バンブー 18mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（桐 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（桐 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（桐 18mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（杉 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（杉 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（杉 18mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（桧 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（桧 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（桧 18mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（チーク 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（チーク 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（チーク 18mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（アッシュ 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（アッシュ 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（アッシュ 18mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（ブラックチェリー 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（ブラックチェリー 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（ブラックチェリー 18mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（ローズウッド 12mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（ローズウッド 15mm）,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング（ローズウッド 18mm）,m2,data/reno-bom-80sqm-v4.json
+システムキッチン,ガスコンロ（3口 標準）,台,data/reno-bom-80sqm-v4.json
+システムキッチン,食洗機（ビルトイン 標準）,台,data/reno-bom-80sqm-v4.json
+ユニットバス,浴室換気乾燥機,台,data/reno-bom-80sqm-v4.json
+ガス設備・配管,床暖房（ガス 1m2）,m2,data/reno-bom-80sqm-v4.json
+衛生器具（トイレ・洗面）,トイレットペーパーホルダー,個,data/reno-bom-80sqm-v4.json
+衛生器具（トイレ・洗面）,水栓金具（混合栓 洗面用）,個,data/reno-bom-80sqm-v4.json
+システムキッチン,水栓金具（混合栓 キッチン用）,個,data/reno-bom-80sqm-v4.json
+給排水配管材,排水トラップ（Pトラップ 50mm）,個,data/reno-bom-80sqm-v4.json
+給排水配管材,排水トラップ（Sトラップ 50mm）,個,data/reno-bom-80sqm-v4.json
+労務単価,大工（普通）,日,data/reno-bom-80sqm-v4.json
+労務単価,大工（熟練）,日,data/reno-bom-80sqm-v4.json
+労務単価,鉄筋工,日,data/reno-bom-80sqm-v4.json
+労務単価,とび工,日,data/reno-bom-80sqm-v4.json
+労務単価,型枠大工,日,data/reno-bom-80sqm-v4.json
+左官・モルタル材料,左官工,日,data/reno-bom-80sqm-v4.json
+タイル・石材,タイル工,日,data/reno-bom-80sqm-v4.json
+労務単価,板金工,日,data/reno-bom-80sqm-v4.json
+塗装・コーキング・接着剤,塗装工,日,data/reno-bom-80sqm-v4.json
+内装仕上げ材,内装工,日,data/reno-bom-80sqm-v4.json
+給排水配管材,配管工,日,data/reno-bom-80sqm-v4.json
+労務単価,電工,日,data/reno-bom-80sqm-v4.json
+エアコン・空調,空調工,日,data/reno-bom-80sqm-v4.json
+労務単価,溶接工,日,data/reno-bom-80sqm-v4.json
+ガラス工事,ガラス工,日,data/reno-bom-80sqm-v4.json
+防水工事材料,防水工,日,data/reno-bom-80sqm-v4.json
+窓・サッシ,サッシ工,日,data/reno-bom-80sqm-v4.json
+解体・廃材処理,解体工,日,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング オーク 21mm,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング ウォールナット 21mm,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング チェリー 21mm,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング メープル 21mm,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング バンブー 21mm,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング 桐 21mm,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング 杉 21mm,m2,data/reno-bom-80sqm-v4.json
+フローリング・床材,無垢フローリング 桧 21mm,m2,data/reno-bom-80sqm-v4.json
+衛生器具（トイレ・洗面）,タカラ 洗面台900mm,式,data/reno-bom-80sqm-v4.json
+給湯器,リンナイ 給湯器24号追い焚き,台,data/reno-bom-80sqm-v4.json
+システムキッチン,TOTO システムキッチン2400ハイグレード,式,data/reno-bom-80sqm-v4.json
+システムキッチン,LIXIL システムキッチン2100スタンダード,式,data/reno-bom-80sqm-v4.json
+システムキッチン,パナソニック 食洗機ビルトイン45cm,台,data/reno-bom-80sqm-v4.json
+システムキッチン,パナソニック 食洗機ビルトイン60cm,台,data/reno-bom-80sqm-v4.json
+ユニットバス,カワック浴室乾燥機（電気）,台,data/reno-bom-80sqm-v4.json
+ユニットバス,カワック浴室乾燥機（ガス）,台,data/reno-bom-80sqm-v4.json
+防水工事材料,洗濯機用防水パン740×640,個,data/reno-bom-80sqm-v4.json
+システムキッチン,キッチン用タッチレス水栓 TOTO,個,data/reno-bom-80sqm-v4.json
+ユニットバス,浴室用サーモスタット LIXIL,個,data/reno-bom-80sqm-v4.json
+衛生器具（トイレ・洗面）,洗面用シングルレバー KVK,個,data/reno-bom-80sqm-v4.json
+ユニットバス,浴槽FRP1600mm,個,data/reno-bom-80sqm-v4.json
+ユニットバス,浴槽人工大理石1600mm,個,data/reno-bom-80sqm-v4.json
+ユニットバス,引き出し式浴室タオル掛け,個,data/reno-bom-80sqm-v4.json
+木構造材（補修・追加）,地盤改良（柱状改良 1本）,本,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,確認申請（木造2階 30坪）,式,data/reno-bom-80sqm-v4.json
+電気配線材,VVFケーブル2C 1.6mm 100m（パナソニック）,巻,data/reno-bom-80sqm-v4.json
+電気配線材,VVFケーブル3C 1.6mm 100m（住友）,巻,data/reno-bom-80sqm-v4.json
+電気配線材,IV電線2.0mm 100m（古河）,巻,data/reno-bom-80sqm-v4.json
+電気配線材,CV電線3C 5.5mm 100m（フジクラ）,巻,data/reno-bom-80sqm-v4.json
+電気配線材,分電盤30A 8回路,台,data/reno-bom-80sqm-v4.json
+電気配線材,分電盤40A 16回路,台,data/reno-bom-80sqm-v4.json
+電気配線材,分電盤50A 24回路,台,data/reno-bom-80sqm-v4.json
+電気配線材,分電盤60A 30回路,台,data/reno-bom-80sqm-v4.json
+スイッチ・コンセント,コンセント2P15A パナソニック,個,data/reno-bom-80sqm-v4.json
+スイッチ・コンセント,スイッチ片切1口 パナソニック,個,data/reno-bom-80sqm-v4.json
+スイッチ・コンセント,テレビコンセントF型,個,data/reno-bom-80sqm-v4.json
+屋根材,ガルバリウム鋼板横葺き0.4mm,m2,data/reno-bom-80sqm-v4.json
+屋根材,ガルバリウム鋼板縦葺き0.4mm,m2,data/reno-bom-80sqm-v4.json
+屋根材,スレート コロニアルクァッド,m2,data/reno-bom-80sqm-v4.json
+屋根材,スレート遮熱タイプ,m2,data/reno-bom-80sqm-v4.json
+外壁材・外装,外壁サイディング ニチハ16mm石目調,m2,data/reno-bom-80sqm-v4.json
+外壁材・外装,外壁サイディング ケイミュー14mmフラット調,m2,data/reno-bom-80sqm-v4.json
+システムキッチン,システムキッチン LIXIL2400スタンダード,式,data/reno-bom-80sqm-v4.json
+ユニットバス,ユニットバス TOTO1616スタンダード,式,data/reno-bom-80sqm-v4.json
+衛生器具（トイレ・洗面）,洗面台 LIXIL750mmスタンダード,式,data/reno-bom-80sqm-v4.json
+衛生器具（トイレ・洗面）,便器 LIXIL タンクレス,式,data/reno-bom-80sqm-v4.json
+給湯器,給湯器 リンナイ24号エコジョーズ,台,data/reno-bom-80sqm-v4.json
+フローリング・床材,エアコン パナソニック10畳用スタンダード,台,data/reno-bom-80sqm-v4.json
+断熱材,グラスウール断熱材105mm16K,m2,data/reno-bom-80sqm-v4.json
+断熱材,フェノールフォーム断熱材50mm,m2,data/reno-bom-80sqm-v4.json
+防水工事材料,透湿防水シート標準 幅1m,m2,data/reno-bom-80sqm-v4.json
+仮設・足場資材,木造解体費坪単価重機,坪,data/reno-bom-80sqm-v4.json
+太陽光・蓄電設備,太陽光パネル400W（長州産業）,枚,data/reno-bom-80sqm-v4.json
+太陽光・蓄電設備,蓄電池6.5kWh（ニチコン）,台,data/reno-bom-80sqm-v4.json
+フローリング・床材,床暖房システム温水6畳,式,data/reno-bom-80sqm-v4.json
+ガラス工事,低E複層ガラス透明,m2,data/reno-bom-80sqm-v4.json
+窓・サッシ,断熱窓内窓樹脂,枚,data/reno-bom-80sqm-v4.json
+防蟻・防腐処理,シロアリ駆除剤バリア18L,缶,data/reno-bom-80sqm-v4.json
+塗装・コーキング・接着剤,マスキングテープ18mm塗装,巻,data/reno-bom-80sqm-v4.json
+照明器具,外構用LED照明ポールH600,個,data/reno-bom-80sqm-v4.json
+外構・仕上げ,アルミフェンスH1200 1m,m,data/reno-bom-80sqm-v4.json
+外構・仕上げ,カーポート1台用LIXIL,式,data/reno-bom-80sqm-v4.json
+断熱材,断熱材セルロースファイバー,m2,data/reno-bom-80sqm-v4.json
+給排水配管材,保温材配管用13mm,本,data/reno-bom-80sqm-v4.json
+電気配線材,ケーブルステープル1.6用,箱,data/reno-bom-80sqm-v4.json
+断熱材,スタイロフォーム50mm基礎断熱,m2,data/reno-bom-80sqm-v4.json
+木構造材（補修・追加）,土台105×105×4m米松,本,data/reno-bom-80sqm-v4.json
+木構造材（補修・追加）,1階柱105×105×3m,本,data/reno-bom-80sqm-v4.json
+木構造材（補修・追加）,梁105×210×4m,本,data/reno-bom-80sqm-v4.json
+木構造材（補修・追加）,垂木45×60×4m,本,data/reno-bom-80sqm-v4.json
+木構造材（補修・追加）,間柱30×105×3m,本,data/reno-bom-80sqm-v4.json
+構造用合板・面材,構造用合板24mm床根太レス,枚,data/reno-bom-80sqm-v4.json
+軒天・破風・雨樋,雨樋丸型φ60 3m,本,data/reno-bom-80sqm-v4.json
+鉄骨・鋼材,構造計算（鉄骨造 3階）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,住宅性能評価（設計）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,住宅性能評価（建設）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,中間検査（民間検査機関）,回,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,完了検査（民間検査機関）,回,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,瑕疵保険（住宅 10年）,式,data/reno-bom-80sqm-v4.json
+システムキッチン,キッチン交換（標準 材工）,式,data/reno-bom-80sqm-v4.json
+ユニットバス,浴室交換（ユニットバス 材工）,式,data/reno-bom-80sqm-v4.json
+衛生器具（トイレ・洗面）,洗面台交換（標準 材工）,式,data/reno-bom-80sqm-v4.json
+衛生器具（トイレ・洗面）,トイレ交換（ウォシュレット 材工）,式,data/reno-bom-80sqm-v4.json
+給湯器,給湯器交換（エコジョーズ 材工）,式,data/reno-bom-80sqm-v4.json
+外壁材・外装,外壁塗装（30坪 材工）,式,data/reno-bom-80sqm-v4.json
+屋根材,屋根塗装（30坪 材工）,式,data/reno-bom-80sqm-v4.json
+屋根材,屋根カバー工法（30坪 材工）,式,data/reno-bom-80sqm-v4.json
+屋根材,屋根葺替（30坪 材工）,式,data/reno-bom-80sqm-v4.json
+外壁材・外装,外壁張替（30坪 材工）,式,data/reno-bom-80sqm-v4.json
+窓・サッシ,窓交換（カバー工法 1枚 材工）,枚,data/reno-bom-80sqm-v4.json
+窓・サッシ,内窓追加（1枚 材工）,枚,data/reno-bom-80sqm-v4.json
+フローリング・床材,床張替（フローリング 1m2 材工）,m2,data/reno-bom-80sqm-v4.json
+クロス・内装仕上げ,クロス張替（1m2 材工）,m2,data/reno-bom-80sqm-v4.json
+労務単価,和室→洋室（1室 材工）,式,data/reno-bom-80sqm-v4.json
+解体・廃材処理,間取り変更（壁撤去・新設 1m 材工）,m,data/reno-bom-80sqm-v4.json
+労務単価,耐震補強（1棟 材工）,式,data/reno-bom-80sqm-v4.json
+断熱材,断熱リフォーム（30坪 材工）,式,data/reno-bom-80sqm-v4.json
+介護・バリアフリー,バリアフリー化（1箇所 材工）,箇所,data/reno-bom-80sqm-v4.json
+太陽光・蓄電設備,太陽光発電（4kW 材工）,式,data/reno-bom-80sqm-v4.json
+防蟻・防腐処理,シロアリ駆除（30坪床下）,式,data/reno-bom-80sqm-v4.json
+換気設備,床下換気扇（1台 材工）,台,data/reno-bom-80sqm-v4.json
+労務単価,床下調湿工事（30坪）,式,data/reno-bom-80sqm-v4.json
+屋根材,屋根修理（部分補修 1m2）,m2,data/reno-bom-80sqm-v4.json
+外壁材・外装,外壁コーキング打替（1m）,m,data/reno-bom-80sqm-v4.json
+軒天・破風・雨樋,雨樋交換（1m 材工）,m,data/reno-bom-80sqm-v4.json
+給湯器,給湯器交換（エコジョーズ 20号）,台,data/reno-bom-80sqm-v4.json
+エアコン・空調,エアコン取付（標準 材工）,台,data/reno-bom-80sqm-v4.json
+労務単価,水道蛇口交換（1箇所 材工）,箇所,data/reno-bom-80sqm-v4.json
+給排水配管材,排水管洗浄（1箇所）,箇所,data/reno-bom-80sqm-v4.json
+外壁材・外装,外壁塗装（30坪 足場込み）,式,data/reno-bom-80sqm-v4.json
+屋根材,屋根塗装（30坪 足場込み）,式,data/reno-bom-80sqm-v4.json
+換気設備,換気扇清掃（1台）,台,data/reno-bom-80sqm-v4.json
+フローリング・床材,畳交換（1枚 材工）,枚,data/reno-bom-80sqm-v4.json
+鉄骨・鋼材,鉄骨造（東京）,坪,data/reno-bom-80sqm-v4.json
+内装仕上げ材,店舗内装（飲食 東京）,坪,data/reno-bom-80sqm-v4.json
+内装仕上げ材,店舗内装（美容室 東京）,坪,data/reno-bom-80sqm-v4.json
+内装仕上げ材,店舗内装（オフィス 東京）,坪,data/reno-bom-80sqm-v4.json
+内装仕上げ材,マンション内装リフォーム（東京）,坪,data/reno-bom-80sqm-v4.json
+労務単価,大工（東京）,日,data/reno-bom-80sqm-v4.json
+労務単価,大工（大阪）,日,data/reno-bom-80sqm-v4.json
+労務単価,大工（名古屋）,日,data/reno-bom-80sqm-v4.json
+労務単価,大工（札幌）,日,data/reno-bom-80sqm-v4.json
+労務単価,大工（仙台）,日,data/reno-bom-80sqm-v4.json
+労務単価,大工（福岡）,日,data/reno-bom-80sqm-v4.json
+労務単価,大工（広島）,日,data/reno-bom-80sqm-v4.json
+労務単価,大工（地方平均）,日,data/reno-bom-80sqm-v4.json
+給排水配管材,配管工（東京）,日,data/reno-bom-80sqm-v4.json
+給排水配管材,配管工（大阪）,日,data/reno-bom-80sqm-v4.json
+給排水配管材,配管工（地方平均）,日,data/reno-bom-80sqm-v4.json
+労務単価,電工（東京）,日,data/reno-bom-80sqm-v4.json
+労務単価,電工（大阪）,日,data/reno-bom-80sqm-v4.json
+労務単価,電工（地方平均）,日,data/reno-bom-80sqm-v4.json
+左官・モルタル材料,左官工（東京）,日,data/reno-bom-80sqm-v4.json
+左官・モルタル材料,左官工（大阪）,日,data/reno-bom-80sqm-v4.json
+左官・モルタル材料,左官工（地方平均）,日,data/reno-bom-80sqm-v4.json
+塗装・コーキング・接着剤,塗装工（東京）,日,data/reno-bom-80sqm-v4.json
+塗装・コーキング・接着剤,塗装工（大阪）,日,data/reno-bom-80sqm-v4.json
+塗装・コーキング・接着剤,塗装工（地方平均）,日,data/reno-bom-80sqm-v4.json
+労務単価,鉄筋工（東京）,日,data/reno-bom-80sqm-v4.json
+労務単価,鉄筋工（大阪）,日,data/reno-bom-80sqm-v4.json
+労務単価,鉄筋工（地方平均）,日,data/reno-bom-80sqm-v4.json
+解体・廃材処理,解体工（東京）,日,data/reno-bom-80sqm-v4.json
+解体・廃材処理,解体工（大阪）,日,data/reno-bom-80sqm-v4.json
+解体・廃材処理,解体工（地方平均）,日,data/reno-bom-80sqm-v4.json
+左官・モルタル材料,生コン（夏期 6〜9月 割増）,率,data/reno-bom-80sqm-v4.json
+左官・モルタル材料,生コン（冬期 12〜2月 割増）,率,data/reno-bom-80sqm-v4.json
+木構造材（補修・追加）,木材（年末・3月末 需要期 割増）,率,data/reno-bom-80sqm-v4.json
+仮設・足場資材,足場（3〜5月 繁忙期 割増）,率,data/reno-bom-80sqm-v4.json
+労務単価,緊急工事割増（通常比）,率,data/reno-bom-80sqm-v4.json
+労務単価,既存建物内工事割増,率,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 北海道,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 青森県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 岩手県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 宮城県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 秋田県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 山形県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 福島県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 茨城県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 栃木県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 群馬県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 埼玉県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 千葉県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 東京都,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 神奈川県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 新潟県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 富山県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 石川県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 福井県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 山梨県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 長野県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 岐阜県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 静岡県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 愛知県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 三重県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 滋賀県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 京都府,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 大阪府,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 兵庫県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 奈良県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 和歌山県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 鳥取県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 島根県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 岡山県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 広島県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 山口県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 徳島県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 香川県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 愛媛県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 高知県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 福岡県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 佐賀県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 長崎県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 熊本県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 大分県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 宮崎県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 鹿児島県,日,data/reno-bom-80sqm-v4.json
+労務単価,大工労務単価 沖縄県,日,data/reno-bom-80sqm-v4.json
+労務単価,工事監理費（建築士・工期中）,式,data/reno-bom-80sqm-v5.json
+諸経費・保険・申請,検査済証取得費用（完了検査）,式,data/reno-bom-80sqm-v5.json
+断熱材,グラスウール105mm 16K（ネオマフォーム代替）,㎡,data/reno-bom-80sqm-v5.json
+断熱材,付加断熱用高性能GW（140mm 32K）,㎡,data/reno-bom-80sqm-v5.json
+断熱材,羊毛断熱材（ウールブレス 105mm）,㎡,data/reno-bom-80sqm-v5.json
+釘・ビス・金物,ビス 3.5×32mm（500本箱）,箱,data/reno-bom-80sqm.json
+釘・ビス・金物,フロアビス 3.8×45mm（200本箱）,箱,data/reno-bom-80sqm.json
+断熱材,グラスウール 32K 50mm（1坪袋）,袋,data/reno-bom-80sqm.json
+フローリング・床材,複合フローリング 12mm 303×1818mm（1坪）,坪,data/reno-bom-80sqm.json
+フローリング・床材,フローリング接着剤 1kg缶,缶,data/reno-bom-80sqm.json
+構造用合板・面材,床下地合板 12mm（1坪）,坪,data/reno-bom-80sqm.json
+クロス・内装仕上げ,クロス下地処理剤（シーラー 16L）,缶,data/reno-bom-80sqm.json
+産廃・廃材処理,金属くず（1トン）,t,data/reno-bom-80sqm.json
+解体・廃材処理,解体工（内装解体）,日,data/reno-labor-bom-80sqm.json
+産廃・廃材処理,普通作業員（廃材搬出）,日,data/reno-labor-bom-80sqm.json
+巾木・廻縁・造作材,大工（普通）下地・造作,日,data/reno-labor-bom-80sqm.json
+労務単価,大工（熟練）構造補修,日,data/reno-labor-bom-80sqm.json
+クロス・内装仕上げ,内装工（クロス張り）,日,data/reno-labor-bom-80sqm.json
+フローリング・床材,内装工（床フローリング）,日,data/reno-labor-bom-80sqm.json
+給排水配管材,配管工（給排水全更新）,日,data/reno-labor-bom-80sqm.json
+労務単価,電工（電気全更新）,日,data/reno-labor-bom-80sqm.json
+左官・モルタル材料,左官工（モルタル補修等）,日,data/reno-labor-bom-80sqm.json
+塗装・コーキング・接着剤,塗装工（内外部塗装）,日,data/reno-labor-bom-80sqm.json
+ユニットバス,設備工（キッチン・浴室・トイレ取付）,日,data/reno-labor-bom-80sqm.json
+木構造材（補修・追加）,土台（105×105×3m 米松）,本,data/zaisai-db.json
+木構造材（補修・追加）,2階柱（105×105×3m）,本,data/zaisai-db.json
+木構造材（補修・追加）,管柱（105×105×3m）,本,data/zaisai-db.json
+木構造材（補修・追加）,通し柱（120×120×6m）,本,data/zaisai-db.json
+木構造材（補修・追加）,梁（105×240×4m）,本,data/zaisai-db.json
+木構造材（補修・追加）,梁（105×300×4m）,本,data/zaisai-db.json
+木構造材（補修・追加）,梁（120×240×4m）,本,data/zaisai-db.json
+木構造材（補修・追加）,集成梁（120×240×4m）,本,data/zaisai-db.json
+木構造材（補修・追加）,集成梁（120×300×4m）,本,data/zaisai-db.json
+木構造材（補修・追加）,LVL梁（105×300×4m）,本,data/zaisai-db.json
+木構造材（補修・追加）,根太（45×105×4m）,本,data/zaisai-db.json
+木構造材（補修・追加）,根太（45×60×4m）,本,data/zaisai-db.json
+木構造材（補修・追加）,間柱（45×105×3m）,本,data/zaisai-db.json
+木構造材（補修・追加）,火打ち梁（90×90×2m）,本,data/zaisai-db.json
+構造用合板・面材,構造用合板（9mm 3×6）,枚,data/zaisai-db.json
+構造用合板・面材,構造用合板（24mm 3×6）,枚,data/zaisai-db.json
+断熱材,グラスウール（105mm 16K）,m2,data/zaisai-db.json
+断熱材,グラスウール（105mm 24K）,m2,data/zaisai-db.json
+断熱材,グラスウール（155mm 16K）,m2,data/zaisai-db.json
+断熱材,グラスウール（210mm 16K）,m2,data/zaisai-db.json
+断熱材,スタイロフォーム（50mm）,m2,data/zaisai-db.json
+断熱材,スタイロフォーム（30mm）,m2,data/zaisai-db.json
+断熱材,フェノールフォーム（50mm）,m2,data/zaisai-db.json
+防水工事材料,透湿防水シート,m2,data/zaisai-db.json
+外壁材・外装,窯業系サイディング（16mm）,m2,data/zaisai-db.json
+外壁材・外装,窯業系サイディング（18mm）,m2,data/zaisai-db.json
+外壁材・外装,金属サイディング,m2,data/zaisai-db.json
+木構造材（補修・追加）,土台水切り,m,data/zaisai-db.json
+外壁材・外装,サイディングビス（ステン）,箱,data/zaisai-db.json
+構造用合板・面材,石膏ボード（12.5mm 耐火）,枚,data/zaisai-db.json
+構造用合板・面材,石膏ボード（21mm 3×9）,枚,data/zaisai-db.json
+給排水配管材,塩ビ管（VU50 4m）,本,data/zaisai-db.json
+給排水配管材,塩ビ管（VU75 4m）,本,data/zaisai-db.json
+給排水配管材,塩ビ管（VU100 4m）,本,data/zaisai-db.json
+給排水配管材,継手類（エルボ・チーズ等）,式,data/zaisai-db.json
+給排水配管材,止水栓,個,data/zaisai-db.json
+給排水配管材,ヘッダー（給水分岐）,個,data/zaisai-db.json
+電気配線材,VVFケーブル（2C 1.6mm 100m）,巻,data/zaisai-db.json
+電気配線材,VVFケーブル（3C 1.6mm 100m）,巻,data/zaisai-db.json
+電気配線材,VVFケーブル（2C 2.0mm 100m）,巻,data/zaisai-db.json
+スイッチ・コンセント,コンセント（埋込 2P）,個,data/zaisai-db.json
+スイッチ・コンセント,スイッチ（埋込 片切）,個,data/zaisai-db.json
+照明器具,照明器具（シーリング 標準）,個,data/zaisai-db.json
+照明器具,LED照明（ダウンライト）,個,data/zaisai-db.json
+通信・弱電設備,インターホン（カラーモニター付き）,式,data/zaisai-db.json
+電気配線材,アースケーブル,m,data/zaisai-db.json
+塗装・コーキング・接着剤,錆止め塗料（16kg）,缶,data/zaisai-db2.json
+左官・モルタル材料,生コン（24-18-20）,m3,data/zaisai-db2.json
+左官・モルタル材料,生コン（30-18-20）,m3,data/zaisai-db2.json
+左官・モルタル材料,生コン（36-18-20）,m3,data/zaisai-db2.json
+外壁材・外装,ALC板（100mm）,m2,data/zaisai-db2.json
+釘・ビス・金物,コンクリート釘（Φ4×65）,箱,data/zaisai-db2.json
+産廃・廃材処理,残土処分費,㎡,souba-v2/parking_concrete_work.json
+左官・モルタル材料,コンクリート打設費（生コン）,㎡,souba-v2/parking_concrete_work.json
+仮設・足場資材,重機回送費,式,souba-v2/parking_concrete_work.json
+諸経費・保険・申請,フラット35適合証明書,式,data/reno-bom-80sqm-v4.json
+調査・測定・診断,気密測定（C値）,回,data/reno-bom-80sqm-v4.json
+調査・測定・診断,気密測定（追加）,回,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,建物表題登記（新築）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,保存登記（所有権）,式,data/reno-bom-80sqm-v4.json
+付帯サービス・環境対策,引越し費用（3LDK 同市内）,式,data/reno-bom-80sqm-v4.json
+付帯サービス・環境対策,引越し費用（3LDK 県外）,式,data/reno-bom-80sqm-v4.json
+付帯サービス・環境対策,仮住まい費用（1ヶ月 1LDK）,月,data/reno-bom-80sqm-v4.json
+付帯サービス・環境対策,家財一時保管費（1ヶ月）,月,data/reno-bom-80sqm-v4.json
+付帯サービス・環境対策,近隣挨拶品（1件分）,件,data/reno-bom-80sqm-v4.json
+付帯サービス・環境対策,騒音・振動対策費（1式）,式,data/reno-bom-80sqm-v4.json
+付帯サービス・環境対策,ハウスクリーニング（3LDK）,式,data/reno-bom-80sqm-v4.json
+設計・監理,BIM設計費追加（木造住宅）,式,data/reno-bom-80sqm-v4.json
+設計・監理,BIM設計費追加（店舗・オフィス）,式,data/reno-bom-80sqm-v4.json
+調査・測定・診断,ドローン測量（1000m2以下）,式,data/reno-bom-80sqm-v4.json
+調査・測定・診断,ドローン測量（1000m2超）,式,data/reno-bom-80sqm-v4.json
+調査・測定・診断,3Dスキャン（現況測量）,式,data/reno-bom-80sqm-v4.json
+調査・測定・診断,土地測量（現況 30坪以下）,式,data/reno-bom-80sqm-v4.json
+調査・測定・診断,土地測量（確定 30坪以下）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,分筆登記（1筆）,筆,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,地目変更登記,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,建物滅失登記,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,建物表題登記,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,所有権保存登記,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,抵当権設定登記,式,data/reno-bom-80sqm-v4.json
+調査・測定・診断,コンクリート圧縮強度試験（1回）,回,data/reno-bom-80sqm-v4.json
+調査・測定・診断,コンクリートスランプ試験（1回）,回,data/reno-bom-80sqm-v4.json
+調査・測定・診断,鉄筋引張試験（1本）,本,data/reno-bom-80sqm-v4.json
+調査・測定・診断,土質試験 含水比（1回）,回,data/reno-bom-80sqm-v4.json
+調査・測定・診断,土質試験 粒度分析（1回）,回,data/reno-bom-80sqm-v4.json
+調査・測定・診断,騒音測定（1回）,回,data/reno-bom-80sqm-v4.json
+調査・測定・診断,振動測定（1回）,回,data/reno-bom-80sqm-v4.json
+調査・測定・診断,粉塵測定（1回）,回,data/reno-bom-80sqm-v4.json
+調査・測定・診断,石綿含有調査（サンプリング 1点）,点,data/reno-bom-80sqm-v4.json
+調査・測定・診断,室内空気質測定 VOC（1室）,室,data/reno-bom-80sqm-v4.json
+調査・測定・診断,建物劣化診断（1棟）,棟,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,建設業許可更新費（5年毎）,式,data/reno-bom-80sqm-v4.json
+調査・測定・診断,ボーリング調査（1本 10m）,本,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,長期優良住宅申請,式,data/reno-bom-80sqm-v4.json
+調査・測定・診断,測量（現況測量 30坪）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,表題登記,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,保存登記,式,data/reno-bom-80sqm-v4.json
+設計・監理,長期優良住宅設計（追加）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,フラット35適合証明,式,data/reno-bom-80sqm-v4.json
+仮設・足場資材,水道メーター（13mm）,個,data/zaisai-db.json
+住宅設備（収納・造作）,VR内覧制作（1邸）,式,data/reno-bom-80sqm-v4.json
+住宅設備（収納・造作）,IoTセンサー設置（1箇所）,箇所,data/reno-bom-80sqm-v4.json
+住宅設備（収納・造作）,スマートホーム（基本パッケージ）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,不動産取得税（概算 1000万建物）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,固定資産税（年額 住宅30坪）,年,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,都市計画税（年額）,年,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,不動産仲介手数料（3000万物件）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,住宅ローン事務手数料（定額型）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,住宅ローン事務手数料（定率型 借入3000万）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,つなぎ融資手数料,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,印紙税（売買契約 3000万）,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,構造計算書確認審査,式,data/reno-bom-80sqm-v4.json
+諸経費・保険・申請,経営事項審査（1式）,式,data/reno-bom-80sqm-v4.json
+教育・資格取得,1級建築士 資格取得費,式,data/reno-bom-80sqm-v4.json
+教育・資格取得,2級建築士 資格取得費,式,data/reno-bom-80sqm-v4.json
+教育・資格取得,宅地建物取引士 資格取得費,式,data/reno-bom-80sqm-v4.json
+教育・資格取得,アスベスト作業主任者 講習費,式,data/reno-bom-80sqm-v4.json
+住宅設備（収納・造作）,IHクッキングヒーター（3口）,台,data/reno-bom-80sqm-v4.json
+住宅設備（収納・造作）,床暖房（電気 1m2）,m2,data/reno-bom-80sqm-v4.json
+住宅設備（収納・造作）,小型電気温水器（30L）,台,data/reno-bom-80sqm-v4.json
+住宅設備（収納・造作）,洗浄便座（単体）,個,data/reno-bom-80sqm-v4.json
+水栓金具・衛生器具部材,タオル掛け（ステン）,個,data/reno-bom-80sqm-v4.json
+水栓金具・衛生器具部材,シャワーヘッド,個,data/reno-bom-80sqm-v4.json
+給排水配管材,掃除口（100mm）,個,data/reno-bom-80sqm-v4.json
+労務単価,普通作業員,日,data/reno-bom-80sqm-v4.json
+労務単価,特殊作業員,日,data/reno-bom-80sqm-v4.json
+住宅設備（収納・造作）,パナソニック ヒートポンプ370L,台,data/reno-bom-80sqm-v4.json
+住宅設備（収納・造作）,TOTO ディスポーザー標準,台,data/reno-bom-80sqm-v4.json
+住宅設備（収納・造作）,LIXIL 浄水器ビルトイン,台,data/reno-bom-80sqm-v4.json
+水栓金具・衛生器具部材,シャワーヘッド節水型 GROHE,個,data/reno-bom-80sqm-v4.json
+水栓金具・衛生器具部材,シャワースライドバー,個,data/reno-bom-80sqm-v4.json
+水栓金具・衛生器具部材,バスチェア（高め）,個,data/reno-bom-80sqm-v4.json
+地盤・基礎工事,スウェーデン式サウンディング（1棟）,式,data/reno-bom-80sqm-v4.json
+地盤・基礎工事,地盤改良（表層改良 1m2）,m2,data/reno-bom-80sqm-v4.json
+地盤・基礎工事,地盤改良（鋼管杭 1本）,本,data/reno-bom-80sqm-v4.json
+地盤・基礎工事,地盤改良（小口径杭 1本）,本,data/reno-bom-80sqm-v4.json
+タイル・石材,レンガ標準210×100×60,個,data/reno-bom-80sqm-v4.json
+住宅設備（収納・造作）,HEMS標準システム,式,data/reno-bom-80sqm-v4.json
+住宅設備（収納・造作）,クローゼットハンガーφ25 2m,本,data/reno-bom-80sqm-v4.json
+断熱材,防音シート重量型1m2,m2,data/reno-bom-80sqm-v4.json
+電気配線材,プレート1口用,個,data/reno-bom-80sqm-v4.json
+電気配線材,埋込ボックス2個用,個,data/reno-bom-80sqm-v4.json
+電気配線材,アウトレットボックス4×4,個,data/reno-bom-80sqm-v4.json
+電気配線材,CD管16mm30m,巻,data/reno-bom-80sqm-v4.json
+電気配線材,PF管22mm30m,巻,data/reno-bom-80sqm-v4.json
+電気配線材,差込コネクタ2本用,個,data/reno-bom-80sqm-v4.json
+電気配線材,絶縁テープ黒,巻,data/reno-bom-80sqm-v4.json
+電気配線材,アース棒10mm×900mm,本,data/reno-bom-80sqm-v4.json
+RC・コンクリート工事,砕石RC-40地業用,m3,data/reno-bom-80sqm-v4.json
+木構造材（補修・追加）,大引90×90×4m,本,data/reno-bom-80sqm-v4.json
+木構造材（補修・追加）,筋交い45×90×4m,本,data/reno-bom-80sqm-v4.json
+構造用合板・面材,ダイライト9mm3×9,枚,data/reno-bom-80sqm-v4.json
+構造用合板・面材,野地板12mm3×6,枚,data/reno-bom-80sqm-v4.json
+仮設・足場資材,仮囲い板1.8×0.9m,枚,data/reno-bom-80sqm-v4.json
+軒天・破風・雨樋,竪樋丸型φ60 3m,本,data/reno-bom-80sqm-v4.json
+仮設・足場資材,安全帯胴ベルト型,個,data/reno-bom-80sqm-v4.json
+設計・監理,構造計算（木造 2階建て）,式,data/reno-bom-80sqm-v4.json
+設計・監理,構造計算（RC造）,式,data/reno-bom-80sqm-v4.json
+設計・監理,省エネ計算（HEAT20）,式,data/reno-bom-80sqm-v4.json
+設計・監理,BELS評価（建物省エネ）,式,data/reno-bom-80sqm-v4.json
+坪単価ベンチマーク,木造住宅（東京都区部）,坪,data/reno-bom-80sqm-v4.json
+坪単価ベンチマーク,木造住宅（関東郊外）,坪,data/reno-bom-80sqm-v4.json
+坪単価ベンチマーク,木造住宅（大阪・名古屋）,坪,data/reno-bom-80sqm-v4.json
+坪単価ベンチマーク,木造住宅（地方都市）,坪,data/reno-bom-80sqm-v4.json
+坪単価ベンチマーク,RC造（東京）,坪,data/reno-bom-80sqm-v4.json
+割増率・条件係数,人件費（年末年始・GW 割増）,率,data/reno-bom-80sqm-v4.json
+割増率・条件係数,人件費（夜間作業 割増）,率,data/reno-bom-80sqm-v4.json
+割増率・条件係数,人件費（土日 割増）,率,data/reno-bom-80sqm-v4.json
+割増率・条件係数,離島・山間地割増,率,data/reno-bom-80sqm-v4.json
+割増率・条件係数,超高層（20F以上）割増,率,data/reno-bom-80sqm-v4.json
+割増率・条件係数,狭小地・搬入困難 割増,率,data/reno-bom-80sqm-v4.json
+塗装・コーキング・接着剤,艶消しコーティング（1m2）,m2,data/reno-bom-80sqm-v4.json
+塗装・コーキング・接着剤,防滑コーティング（1m2）,m2,data/reno-bom-80sqm-v4.json
+設計・監理,CM（コンストラクションマネジメント）費,式,data/reno-bom-80sqm-v5.json
+断熱材,XPS（押出法ポリスチレンフォーム 50mm）,㎡,data/reno-bom-80sqm-v5.json
+断熱材,セルロースファイバー（吹込み用 1㎡=100mm）,㎡,data/reno-bom-80sqm-v5.json
+釘・ビス・金物,コーススレッド 3.8×65mm（500本箱）,箱,data/reno-bom-80sqm.json
+釘・ビス・金物,コーススレッド 3.8×90mm（500本箱）,箱,data/reno-bom-80sqm.json
+釘・ビス・金物,プラグ 6mm（100個袋）,袋,data/reno-bom-80sqm.json
+木構造材（補修・追加）,棟木（105×105×4m）,本,data/zaisai-db.json
+木構造材（補修・追加）,母屋（90×90×4m）,本,data/zaisai-db.json
+木構造材（補修・追加）,桁（105×180×4m）,本,data/zaisai-db.json
+構造用合板・面材,モイス（9mm 3×9）,枚,data/zaisai-db.json
+断熱材,ロックウール（50mm）,m2,data/zaisai-db.json
+木構造材（補修・追加）,胴縁（18×45×4m）,本,data/zaisai-db.json
+外壁材・外装,出隅役物,m,data/zaisai-db.json
+外壁材・外装,入隅役物,m,data/zaisai-db.json
+鉄骨・鋼材,LGS（65mm スタッド）,本,data/zaisai-db.json
+電気配線材,火災報知器,個,data/zaisai-db.json
+電気配線材,PF管（16mm 30m）,巻,data/zaisai-db.json
+鉄骨・鋼材,H形鋼（100×100×6m）,本,data/zaisai-db2.json
+鉄骨・鋼材,H形鋼（150×150×6m）,本,data/zaisai-db2.json
+鉄骨・鋼材,H形鋼（200×200×6m）,本,data/zaisai-db2.json
+鉄骨・鋼材,角形鋼管（100×100×4.5mm 6m）,本,data/zaisai-db2.json
+鉄骨・鋼材,角形鋼管（150×150×6mm 6m）,本,data/zaisai-db2.json
+鉄骨・鋼材,リップ溝形鋼（C-100 6m）,本,data/zaisai-db2.json
+鉄骨・鋼材,リップ溝形鋼（C-150 6m）,本,data/zaisai-db2.json
+鉄骨・鋼材,鋼板（3.2mm 1220×2440）,枚,data/zaisai-db2.json
+鉄骨・鋼材,鋼板（6mm 1220×2440）,枚,data/zaisai-db2.json
+鉄骨・鋼材,溶接棒（4kg）,箱,data/zaisai-db2.json
+鉄骨・鋼材,ボルト（M16×60）,個,data/zaisai-db2.json
+鉄骨・鋼材,ボルト（M20×70）,個,data/zaisai-db2.json
+鉄骨・鋼材,高力ボルト（M20 F10T）,セット,data/zaisai-db2.json
+鉄骨・鋼材,デッキプレート（1.0mm 1m2）,m2,data/zaisai-db2.json
+鉄骨・鋼材,スタッドボルト（Φ16×125）,本,data/zaisai-db2.json
+RC・コンクリート工事,型枠パネル（サポート付き）,m2,data/zaisai-db2.json
+RC・コンクリート工事,鉄筋（D10 1t）,ton,data/zaisai-db2.json
+RC・コンクリート工事,鉄筋（D13 1t）,ton,data/zaisai-db2.json
+RC・コンクリート工事,鉄筋（D16 1t）,ton,data/zaisai-db2.json
+RC・コンクリート工事,鉄筋（D19 1t）,ton,data/zaisai-db2.json
+RC・コンクリート工事,鉄筋（D22 1t）,ton,data/zaisai-db2.json
+RC・コンクリート工事,鉄筋（D25 1t）,ton,data/zaisai-db2.json
+RC・コンクリート工事,PCa（プレキャスト）床版,m2,data/zaisai-db2.json
+地盤・基礎工事,雑草・木の根除去,㎡,souba-v2/parking_concrete_work.json
+地盤・基礎工事,水盛り遣り方,式,souba-v2/parking_concrete_work.json
+地盤・基礎工事,鋤取り費,㎡,souba-v2/parking_concrete_work.json
+RC・コンクリート工事,型枠費,m,souba-v2/parking_concrete_work.json
+RC・コンクリート工事,ワイヤーメッシュ費,㎡,souba-v2/parking_concrete_work.json
+RC・コンクリート工事,カッター目地費,m,souba-v2/parking_concrete_work.json
+外構・仕上げ,車止め費用,個,souba-v2/parking_concrete_work.json
+労務単価,人件費（2名）,人,souba-v2/parking_concrete_work.json
+外構・仕上げ,砕石＋転圧費,㎡,souba-v2/parking_concrete_work.json
