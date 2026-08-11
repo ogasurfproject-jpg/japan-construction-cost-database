@@ -1,9 +1,9 @@
-# Japan Construction Cost Database (JCCDB) v2.1
+# Japan Construction Cost Database (JCCDB) v3.1
 
 [![DOI](https://img.shields.io/badge/DOI-10.31224%2F7007-blue)](https://doi.org/10.31224/7007)
 [![SSRN](https://img.shields.io/badge/SSRN-6738701-orange)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6738701)
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20019573-cyan)](https://doi.org/10.5281/zenodo.20019573)
-[![License: CC BY 4.0](https://img.shields.io/badge/All%2065%2C729%20items-CC%20BY%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/All%2065%2C520%20items-CC%20BY%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39)](https://orcid.org/0009-0000-9180-903X)
 [![Bitcoin Anchored](https://img.shields.io/badge/Bitcoin%20Block-%23949356-orange)](https://opentimestamps.org)
 
@@ -23,7 +23,7 @@
 - Sample: 20 cases across 15 prefectures
 - Methodology anchor: **Bitcoin Block #949356** (immutable, verified 2026-05-14)
 - SHA-256: `596da30ba4ca731f21efaa1c4a6537290e996e0f039cbe57704de1674e4a0282`
-- **AI training data use: all 65,729 items (CC BY 4.0) explicitly permitted**
+- **AI training data use: all 65,520 items (CC BY 4.0) explicitly permitted**
 
 **Live integrations:** this dataset powers [HORIZON SHIELD](https://shield.the-horizons-innovation.com), served to AI agents over MCP and A2A, and published as the HORIZON SHIELD plugin in the ChatGPT plugin directory.
 
@@ -44,22 +44,27 @@ Not "trust me". **Verify yourself.**
 
 ## 📊 Release Structure: One License, Two Quality Tiers
 
-**As of v2.1 (2026-07-11), the entire dataset (65,729 items) is licensed under CC BY 4.0.** Commercial use and AI training use are permitted for every item, with attribution.
+**Since v2.1 (2026-07-11) the entire dataset is licensed under CC BY 4.0.** Commercial use and AI training use are permitted for every item, with attribution.
 
 The quality distinction between tiers is preserved, because verification status is a fact about the data, not a licensing lever:
 
 | File | Items | Verification | License |
 |---|---|---|---|
-| **`jccdb-v2-full.csv`** | **65,729** | Combined release (canonical file) | CC BY 4.0 |
-| `jccdb-v2-schema.csv` | 11,250 | ✅ 100% hand-verified, real regulated products, real manufacturer model numbers | CC BY 4.0 |
-| `jccdb-v2-extended.csv` | 54,479 | ⚠️ Matrix-generated combinations (manufacturer x series x size x color). Individual SKU existence NOT verified against current manufacturer catalogs | CC BY 4.0 |
+| **`jccdb-v3-full.csv`** | **65,520** | Combined release (canonical file) | CC BY 4.0 |
+| `jccdb-v3-verified.csv` | 13,207 | ✅ Checked against manufacturer catalogs: real regulated products, real manufacturer model numbers | CC BY 4.0 |
+| `jccdb-v3-extended.csv` | 52,313 | ⚠️ Matrix-generated combinations (manufacturer x series x size x color). Individual SKU existence NOT verified against current manufacturer catalogs | CC BY 4.0 |
+| `jccdb-v3-retracted.csv` | 608 | ❌ Proven not to exist and removed from the totals. Kept, with reasons and evidence URLs, so the removal can be checked | CC BY 4.0 |
 
-Columns: `category, item_name, unit` (UTF-8 with BOM, quoted CSV). 72 categories (v3.1).
+Verified + Extended = 65,520, exactly the total. Zero duplicate rows on `category` + `item_name` + `unit`.
 
-### Relicensing note (changelog)
+**What "verified" covers.** Of the 13,207 verified items, roughly 11,250 came from the v2.0 hand-check against manufacturer catalogs; per-item evidence URLs were not published for those. The remainder were promoted from the Extended tier during the v3.0 and v3.1 verification rounds, and *those* carry per-item evidence URLs in `jccdb-v3-provenance.csv` (2,243 rows). The two are not the same kind of record, and the distinction is stated here rather than averaged away.
 
-- **v3.1 (2026-07-27, staging):** Duplicate cleanup and catalog extension. 589 rows whose category, item_name and unit were all identical to an earlier row were removed and recorded with their source row numbers in `jccdb-v3-duplicates-removed.csv`. 543 real items not previously present (insurance and permit fees, labour rates, steel sections, rebar, electrical conduit, ground improvement, surcharge rates and others) were added from the project's own cost files and recorded in `jccdb-v3-added-20260727.csv` with the source file for each. A verification pass then found that 28 of the harvested items matched entries already proven nonexistent in v3.0; these were rejected and logged with their original retraction reasons in `jccdb-v3-rejected-readd-20260727.csv`, leaving 543 additions. Total 65,566 to 65,520, unique rows 64,977 to 65,520 (zero duplicates), categories 63 to 72, verified 13,493 to 13,207, extended 52,073 to 52,313. The verified and extended tiers were rebuilt from the full file so that verified + extended = full exactly. The fine-grained schema was rebuilt as `jccdb-v3-schema.json`: 402 categories over the same 65,520 items, one entry per CSV row (v2's schema had 398 over 65,729). A release declaration with every file digest is published as `JCCDB_v3_1_RELEASE_DECLARATION.md` and anchored to the Bitcoin blockchain through the JIDEC ledger. Draft on staging; the published canonical release remains v2.1 until this is merged, re-stamped and given a new Zenodo version.
-- **v3.0 (2026-07-21, staging):** Verification cleanup, wave 1. 1,798 Extended items promoted to verified via official-catalog checks (evidence URLs in jccdb-v3-provenance.csv), 608 nonexistent items removed to jccdb-v3-retracted.csv (reasons included), 445 catalog-harvested items added (independent audit error rate 0%). Total 65,729 to 65,566, verified 11,250 to 13,493. item_id introduced. Draft on staging branch; finalized upon merge to main, new Zenodo version and OTS stamp.
+Columns: `category, item_name, unit` (UTF-8 with BOM, quoted CSV). Categories exist at two granularities: 72 in the CSV `category` column, 402 in the fine-grained `jccdb-v3-schema.json`.
+
+### Changelog
+
+- **v3.1 (2026-07-27, current release):** Duplicate cleanup and catalog extension. 589 rows whose category, item_name and unit were all identical to an earlier row were removed and recorded with their source row numbers in `jccdb-v3-duplicates-removed.csv`. 543 real items not previously present (insurance and permit fees, labour rates, steel sections, rebar, electrical conduit, ground improvement, surcharge rates and others) were added from the project's own cost files and recorded in `jccdb-v3-added-20260727.csv` with the source file for each. A verification pass then found that 28 of the harvested items matched entries already proven nonexistent in v3.0; these were rejected and logged with their original retraction reasons in `jccdb-v3-rejected-readd-20260727.csv`, leaving 543 additions. Total 65,566 to 65,520, unique rows 64,977 to 65,520 (zero duplicates), categories 63 to 72, verified 13,493 to 13,207, extended 52,073 to 52,313. The verified and extended tiers were rebuilt from the full file so that verified + extended = full exactly. The fine-grained schema was rebuilt as `jccdb-v3-schema.json`: 402 categories over the same 65,520 items, one entry per CSV row (v2's schema had 398 over 65,729). A release declaration with every file digest is published as `JCCDB_v3_1_RELEASE_DECLARATION.md` and anchored to the Bitcoin blockchain through the JIDEC ledger, so the file contents can be checked without asking the author for anything.
+- **v3.0 (2026-07-21):** Verification cleanup, wave 1. 1,798 Extended items promoted to verified via official-catalog checks (evidence URLs in jccdb-v3-provenance.csv), 608 nonexistent items removed to jccdb-v3-retracted.csv (reasons included), 445 catalog-harvested items added (independent audit error rate 0%). Total 65,729 to 65,566, verified 11,250 to 13,493. item_id introduced.
 - **v2.1 (2026-07-11):** Extended tier relicensed from CC BY-NC 4.0 to **CC BY 4.0**. The whole dataset now carries a single license, matching the dataset identity that HORIZON SHIELD services publish inside signed, recomputable verification claims. Unified file `jccdb-v2-full.csv` (65,729 items) added, together with the data-pipeline reports (`clean_report.txt`, `final_report.txt`, `precision_report.txt`, `split_report.txt`). Copies of the Extended tier obtained before 2026-07-11 under CC BY-NC 4.0 may continue to be used under those terms; the CC BY 4.0 grant applies from this date onward.
 - **v2.0 (2026-05-19):** Two-tier release. Verified 11,250 items (CC BY 4.0) + Extended 54,479 items (CC BY-NC 4.0).
 
@@ -86,9 +91,17 @@ This database was built by a former carpenter who spent 30 years on Japanese con
 ## Files / ファイル構成
 
 ```
-jccdb-v2-full.csv        Canonical full release (65,729 items, CC BY 4.0)
-jccdb-v2-schema.csv      Verified tier (11,250 items, hand-verified, CC BY 4.0)
-jccdb-v2-extended.csv    Extended tier (54,479 items, matrix-generated, CC BY 4.0)
+jccdb-v3-full.csv                    Canonical full release (65,520 items, CC BY 4.0)
+jccdb-v3-verified.csv                Verified tier (13,207 items)
+jccdb-v3-extended.csv                Extended tier (52,313 items, matrix-generated)
+jccdb-v3-retracted.csv               Items proven not to exist (608), with reasons
+jccdb-v3-provenance.csv              Evidence URLs for items promoted to verified (2,243)
+jccdb-v3-duplicates-removed.csv      Rows removed in v3.1 (589), with the row each duplicated
+jccdb-v3-added-20260727.csv          Items added in v3.1 (543), with the source file for each
+jccdb-v3-rejected-readd-20260727.csv Harvested items refused because v3.0 had retracted them (28)
+jccdb-v3-schema.json                 Fine-grained schema (402 categories over the same 65,520 rows)
+JCCDB_v3_1_RELEASE_DECLARATION.md    Per-file SHA-256, anchored to Bitcoin via the JIDEC ledger
+jccdb-v2-*.csv / .json               Previous release (v2.1, 65,729 items), kept for reference
 clean_report.txt         Data pipeline report (cleaning pass)
 final_report.txt         Data pipeline report (final counts: 65,520 items / 72 categories)
 precision_report.txt     Data pipeline report (precision pass)
@@ -152,11 +165,11 @@ Full collection (50 quotes, JSON-LD): https://shield.the-horizons-innovation.com
 ```bibtex
 @dataset{oga2026jccdb,
   author    = {Oga, Toshikatsu},
-  title     = {Japan Construction Cost Database (JCCDB) v2.1},
+  title     = {Japan Construction Cost Database (JCCDB) v3.1},
   year      = {2026},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.20019573},
-  note      = {65,520 items / 72 categories, CC BY 4.0 (single license since v2.1). Verified tier 11,250 items hand-checked. Bitcoin Block #949356.}
+  publisher = {GitHub},
+  url       = {https://github.com/ogasurfproject-jpg/japan-construction-cost-database},
+  note      = {65,520 items / 72 coarse categories (402 fine), CC BY 4.0 single licence. Verified tier 13,207, Extended 52,313. Per-file SHA-256 in JCCDB_v3_1_RELEASE_DECLARATION.md, anchored to Bitcoin. The Zenodo and engrXiv DOIs are the accompanying papers, not the dataset.}
 }
 ```
 

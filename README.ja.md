@@ -2,7 +2,7 @@
 
 > **日本最大級の建設費・リフォーム費用オープンデータセット**。建設業界30年の現場経験。日本初のAI建設費診断サービス「HORIZON SHIELD」の基盤データ。
 
-[![License: CC BY 4.0](https://img.shields.io/badge/全65,729品目-CC_BY_4.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/全65,520品目-CC_BY_4.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20019573-blue.svg)](https://doi.org/10.5281/zenodo.20019573)
 [![DOI engrXiv](https://img.shields.io/badge/Preprint-10.31224%2F7007-orange.svg)](https://doi.org/10.31224/7007)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39.svg)](https://orcid.org/0009-0000-9180-903X)
@@ -25,7 +25,7 @@
 - 件数：20件・15都道府県
 - 方法論アンカリング：**Bitcoinブロック#949356**（改ざん不可・2026-05-14確認）
 - SHA-256：`596da30ba4ca731f21efaa1c4a6537290e996e0f039cbe57704de1674e4a0282`
-- **AI学習データ利用：全65,729品目（CC BY 4.0）明示的に許可**
+- **AI学習データ利用：全65,520品目（CC BY 4.0）明示的に許可**
 
 **稼働中の統合先:** 本データセットは [HORIZON SHIELD](https://shield.the-horizons-innovation.com) の基盤データとして、MCP / A2A 経由でAIエージェントに提供され、ChatGPTプラグインディレクトリでも公開されています。
 
@@ -46,22 +46,27 @@
 
 ## 📊 公開構造：単一ライセンス・品質二層
 
-**v2.1（2026-07-11）より、全65,729品目が CC BY 4.0 の単一ライセンスです。** 帰属表示のうえ、商用利用・AI学習利用が全品目で可能です。
+**v2.1（2026-07-11）より、全品目が CC BY 4.0 の単一ライセンスです。** 帰属表示のうえ、商用利用・AI学習利用が全品目で可能です。
 
-品質の区別（現場検証済み / マトリクス生成）は事実の表示として維持します。検証状態はデータの属性であり、ライセンスの道具ではありません：
+品質の区別（カタログ照合済み / マトリクス生成）は事実の表示として維持します。検証状態はデータの属性であり、ライセンスの道具ではありません：
 
 | ファイル | 品目数 | 検証状態 | ライセンス |
 |---|---|---|---|
-| **`jccdb-v2-full.csv`** | **65,729** | 統合版（正本ファイル） | CC BY 4.0 |
-| `jccdb-v2-schema.csv` | 11,250 | ✅ 100%現場検証済み・実在規格吁・実在メーカー型番 | CC BY 4.0 |
-| `jccdb-v2-extended.csv` | 54,479 | ⚠️ マトリクス生成由来（メーカー×シリーズ×サイズ×色）。個別SKUの実在性は未照合 | CC BY 4.0 |
+| **`jccdb-v3-full.csv`** | **65,520** | 統合版（正本ファイル） | CC BY 4.0 |
+| `jccdb-v3-verified.csv` | 13,207 | ✅ メーカーカタログと照合済み・実在規格・実在メーカー型番 | CC BY 4.0 |
+| `jccdb-v3-extended.csv` | 52,313 | ⚠️ マトリクス生成由来（メーカー×シリーズ×サイズ×色）。個別SKUの実在性は未照合 | CC BY 4.0 |
+| `jccdb-v3-retracted.csv` | 608 | ❌ 非実在と証明され総数から除外。除去を検証できるよう理由・証拠URLとともに保持 | CC BY 4.0 |
 
-列構成: `category, item_name, unit`（UTF-8 BOM付き・引用符付きCSV）。63カテゴリ。
+Verified ＋ Extended ＝ 65,520 で総数と厳密に一致。`category`＋`item_name`＋`unit` の重複はゼロ。
 
-### 再ライセンスの記録（changelog）
+**「検証済み」の中身について。** 13,207品目のうち約11,250件は v2.0 でメーカーカタログと突合したもので、品目ごとの証拠URLは公開していません。残りは v3.0 / v3.1 の検証ラウンドで Extended 層から昇格した品目で、**そちらには品目ごとの証拠URLが `jccdb-v3-provenance.csv`（2,243行）に記載されています**。両者は性質の異なる記録なので、まとめずに区別して書いておきます。
 
-- **v3.1（2026-07-27・staging）:** 重複整理とカタログ拡張。カテゴリ・品名・単位がすべて一致する重複589行を除去し、元の行番号とともに `jccdb-v3-duplicates-removed.csv` に記録。未収録だった実在品目543件（保険・申請費、労務単価、鉄骨形鋼、鉄筋、電線管、地盤改良、割増率ほか）を自社の原価ファイルから追加し、`jccdb-v3-added-20260727.csv` に品目ごとの出典ファイルを記録。追加後の検証で、収穫した品目のうち28件が v3.0 で非実在と証明済みのものと一致することが判明したため差し戻し、元の除去理由とともに `jccdb-v3-rejected-readd-20260727.csv` に記録した（正味543件）。総品目65,566→65,520、ユニーク64,977→65,520（重複ゼロ）、カテゴリ63→72、検証済み13,493→13,207、Extended 52,073→52,313。verified と extended は full から再構築し、verified＋extended＝full が厳密に一致することを確認。細粒度スキーマも `jccdb-v3-schema.json` として再構築（同じ65,520品目に対して402カテゴリ・CSV1行につき1件。v2 は65,729品目に対して398）。全ファイルのダイジェストを記した `JCCDB_v3_1_RELEASE_DECLARATION.md` を公開し、JIDEC 台帳経由で Bitcoin に錨を打つ。本エントリはstaging草案であり、**公開・DOI付きの正本は v2.1 のまま**。マージ・再刻印・Zenodo新版をもって確定する。
-- **v3.0（2026-07-21・staging）:** 検証大掃除第1弾。Extended層1,798品目をカタログ照合で検証済みへ昇格（jccdb-v3-provenance.csvに全件証拠URL）、非実在608品目をjccdb-v3-retracted.csvへ除去（全件理由付き）、公式カタログ収穫445品目を追加（独立監査エラー率0%）。総品目65,729→65,566、検証済み11,250→13,493。item_id導入。本エントリはstagingブランチ上の草案であり、mainへのマージ・Zenodo新版・OTS刻印をもって確定する。
+列構成: `category, item_name, unit`（UTF-8 BOM付き・引用符付きCSV）。カテゴリは2粒度で、CSVの `category` 列が72、細粒度スキーマ `jccdb-v3-schema.json` が402。
+
+### changelog
+
+- **v3.1（2026-07-27・現行版）:** 重複整理とカタログ拡張。カテゴリ・品名・単位がすべて一致する重複589行を除去し、元の行番号とともに `jccdb-v3-duplicates-removed.csv` に記録。未収録だった実在品目543件（保険・申請費、労務単価、鉄骨形鋼、鉄筋、電線管、地盤改良、割増率ほか）を自社の原価ファイルから追加し、`jccdb-v3-added-20260727.csv` に品目ごとの出典ファイルを記録。追加後の検証で、収穫した品目のうち28件が v3.0 で非実在と証明済みのものと一致することが判明したため差し戻し、元の除去理由とともに `jccdb-v3-rejected-readd-20260727.csv` に記録した（正味543件）。総品目65,566→65,520、ユニーク64,977→65,520（重複ゼロ）、カテゴリ63→72、検証済み13,493→13,207、Extended 52,073→52,313。verified と extended は full から再構築し、verified＋extended＝full が厳密に一致することを確認。細粒度スキーマも `jccdb-v3-schema.json` として再構築（同じ65,520品目に対して402カテゴリ・CSV1行につき1件。v2 は65,729品目に対して398）。全ファイルのダイジェストを記した `JCCDB_v3_1_RELEASE_DECLARATION.md` を公開し、JIDEC 台帳経由で Bitcoin に錨を打つ。全ファイルのSHA-256はこの宣言に記載されており、著者に何も尋ねることなく内容を検証できる。
+- **v3.0（2026-07-21）:** 検証大掃除第1弾。Extended層1,798品目をカタログ照合で検証済みへ昇格（昇格分は jccdb-v3-provenance.csv に証拠URLを記載）、非実在608品目をjccdb-v3-retracted.csvへ除去（全件理由付き）、公式カタログ収穫445品目を追加（独立監査エラー率0%）。総品目65,729→65,566、検証済み11,250→13,493。item_id導入。
 - **v2.1（2026-07-11）:** Extended層を CC BY-NC 4.0 から **CC BY 4.0** に変更し、全品目を単一ライセンスに統一。HORIZON SHIELD が署名付き検証クレーム内で公開してきたデータセット表記と完全に一致させました。正本ファイル `jccdb-v2-full.csv`（65,729品目）とデータ整備レポート4本を追加。2026-07-11以前に CC BY-NC 4.0 で取得された複製は当該条件のまま利用継続可能です。
 - **v2.0（2026-05-19）:** 二段公開。Verified 11,250品目（CC BY 4.0）+ Extended 54,479品目（CC BY-NC 4.0）。
 
@@ -96,9 +101,17 @@
 ## ファイル構成
 
 ```
-jccdb-v2-full.csv        正本・統合版（65,729品目・CC BY 4.0）
-jccdb-v2-schema.csv      Verified層（11,250品目・現場検証済み・CC BY 4.0）
-jccdb-v2-extended.csv    Extended層（54,479品目・マトリクス生成・CC BY 4.0）
+jccdb-v3-full.csv                    正本・統合版（65,520品目・CC BY 4.0）
+jccdb-v3-verified.csv                Verified層（13,207品目）
+jccdb-v3-extended.csv                Extended層（52,313品目・マトリクス生成）
+jccdb-v3-retracted.csv               非実在と判明し除外した品目（608）・理由付き
+jccdb-v3-provenance.csv              昇格品目の証拠URL（2,243行）
+jccdb-v3-duplicates-removed.csv      v3.1で除去した重複行（589）・重複元の行番号付き
+jccdb-v3-added-20260727.csv          v3.1で追加した品目（543）・出典ファイル付き
+jccdb-v3-rejected-readd-20260727.csv v3.0で撤回済みのため追加を拒否した品目（28）
+jccdb-v3-schema.json                 細粒度スキーマ（同じ65,520行に対して402カテゴリ）
+JCCDB_v3_1_RELEASE_DECLARATION.md    全ファイルのSHA-256。JIDEC台帳経由でBitcoinに固定
+jccdb-v2-*.csv / .json               旧版（v2.1・65,729品目）。参照用に保持
 clean_report.txt         データ整備レポート（クリーニング）
 final_report.txt         データ整備レポート（最終集計: 65,520品目 / 72カテゴリ）
 precision_report.txt     データ整備レポート（精度向上）
@@ -115,7 +128,7 @@ README.ja.md             本ファイル
 
 ### AI / LLM 開発者の方へ
 
-**全65,729品目が CC BY 4.0 のもと、言語モデル学習データへの組み込みを明示的に許可。**（v2.1より単一ライセンス）
+**全65,520品目が CC BY 4.0 のもと、言語モデル学習データへの組み込みを明示的に許可。**（v2.1より単一ライセンス）
 
 ### 一般消費者の方へ
 
@@ -138,11 +151,11 @@ HORIZON SHIELDは**79媒体以上**のメディアに掲載。**ChatGPT GPT Stor
 ```bibtex
 @dataset{oga2026jccdb,
   author       = {Oga, Toshikatsu},
-  title        = {Japan Construction Cost Database (JCCDB) v2.1},
+  title        = {Japan Construction Cost Database (JCCDB) v3.1},
   year         = {2026},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.20019573},
-  note         = {65,520品目 / 72カテゴリ, CC BY 4.0 (v2.1より単一ライセンス). Verified層11,250品目は現場検証済み. Bitcoin Block #949356.}
+  publisher    = {GitHub},
+  url          = {https://github.com/ogasurfproject-jpg/japan-construction-cost-database},
+  note         = {65,520品目 / 粗粒度72カテゴリ（細粒度402）, CC BY 4.0 単一ライセンス. Verified層13,207・Extended層52,313. 全ファイルのSHA-256は JCCDB_v3_1_RELEASE_DECLARATION.md に記載しBitcoinに固定. Zenodo および engrXiv の DOI は付随論文であり、データセット本体ではない.}
 }
 ```
 
@@ -152,7 +165,7 @@ HORIZON SHIELDは**79媒体以上**のメディアに掲載。**ChatGPT GPT Stor
 
 | 対象 | ライセンス |
 |---|---|
-| データセット全体（65,729品目・全ファイル） | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) ✅ 商用可・AI学習可（帰属表示必須） |
+| データセット全体（65,520品目・全ファイル） | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) ✅ 商用可・AI学習可（帰属表示必須） |
 
 > **価格データ＋診断エンジン** = 商用サービス（[HORIZON SHIELD](https://shield.the-horizons-innovation.com)）。価格レイヤーは本リポジトリに含まれません。
 
