@@ -3,15 +3,23 @@ message: "If you use this dataset, please cite it using the metadata below."
 title: "Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation"
 abstract: >-
   An open, machine-readable construction-cost dataset for the Japanese
-  market. JCCDB v2.1 provides an item schema of 65,729 items across 63
-  categories (item names, categories, and units only, with no embedded
-  prices), released under a single CC BY 4.0 license as of 2026-07-11.
-  The canonical file is jccdb-v2-full.csv. Two quality tiers are
-  documented as data facts: a hand-verified core of 11,250 items
-  (jccdb-v2-schema.csv) and a matrix-generated extension of 54,479 items
-  (jccdb-v2-extended.csv); both carry CC BY 4.0. Earlier copies of the
-  extension obtained before 2026-07-11 under CC BY-NC 4.0 may continue
-  to be used under those terms. It extends JCCDB v1.1, which comprises
+  market. JCCDB v3.1 provides an item catalogue of 65,520 items across 72 coarse
+  categories (402 in the fine-grained schema), recording item names,
+  categories and units only, with no embedded prices. It is released under
+  a single CC BY 4.0 licence, in force since v2.1 (2026-07-11). The
+  canonical file is jccdb-v3-full.csv. Two quality tiers are documented as
+  data facts: a verified tier of 13,207 items checked against manufacturer
+  catalogues, and a matrix-generated extended tier of 52,313 items whose
+  individual SKU existence is not verified; 13,207 + 52,313 equals the
+  total exactly, with zero duplicate rows. Of the verified items, roughly
+  11,250 came from the v2.0 hand-check and carry no per-item evidence
+  URLs; the remainder were promoted in the v3.0 and v3.1 rounds and carry
+  per-item evidence URLs in jccdb-v3-provenance.csv. A further 608 items
+  proven not to exist are held separately in jccdb-v3-retracted.csv with
+  reasons and evidence URLs. Per-file SHA-256 digests are published in
+  JCCDB_v3_1_RELEASE_DECLARATION.md and anchored to Bitcoin through the
+  JIDEC ledger. Earlier copies of the extension obtained before 2026-07-11
+  under CC BY-NC 4.0 may continue to be used under those terms. It extends JCCDB v1.1, which comprises
   87 construction plans across 7 renovation categories, annotated with
   88 fraud-detection patterns categorized by severity. Pricing in the
   v1.1 layer is derived from the HORIZON SHIELD (HS) Rule, a transparent
@@ -28,13 +36,13 @@ abstract: >-
 authors:
   - family-names: "Oga"
     given-names: "Toshikatsu"
-    affiliation: "The HORIZ音s Inc. (HORIZON SHIELD)"
+    affiliation: "The HORIZONs Co., Ltd. (The HORIZ音s株式会社)"
     email: "contact@the-horizons-innovation.com"
     website: "https://shield.the-horizons-innovation.com"
     orcid: "https://orcid.org/0009-0000-9180-903X"
     alias: "大賀俊勝"
-date-released: 2026-07-11
-version: "2.1.0"
+date-released: 2026-07-27
+version: "3.1.0"
 url: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
 repository-code: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
 license: CC-BY-4.0
@@ -63,13 +71,13 @@ keywords:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.20019573
-    description: JCCDB v1.x companion dataset archive, Zenodo (CC BY 4.0)
+    description: JCCDB v1.x accompanying paper (PDF) on Zenodo. This is the paper, not a snapshot of the dataset; the dataset itself is on GitHub and Hugging Face.
   - type: doi
     value: 10.31224/7007
     description: engrXiv preprint of the accompanying paper
   - type: url
     value: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
-    description: Source repository (JCCDB v2.1)
+    description: Canonical source repository (current release v3.1)
 preferred-citation:
   type: article
   title: "Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation"
