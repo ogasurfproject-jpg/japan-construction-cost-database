@@ -3,7 +3,8 @@
 > **日本最大級の建設費・リフォーム費用オープンデータセット**。建設業界30年の現場経験。日本初のAI建設費診断サービス「HORIZON SHIELD」の基盤データ。
 
 [![License: CC BY 4.0](https://img.shields.io/badge/全65,520品目-CC_BY_4.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20019573-blue.svg)](https://doi.org/10.5281/zenodo.20019573)
+[![Dataset DOI](https://img.shields.io/badge/Dataset%20DOI-10.5281%2Fzenodo.21898745-1682D4.svg)](https://doi.org/10.5281/zenodo.21898745)
+[![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.5281%2Fzenodo.20019573-blue.svg)](https://doi.org/10.5281/zenodo.20019573)
 [![DOI engrXiv](https://img.shields.io/badge/Preprint-10.31224%2F7007-orange.svg)](https://doi.org/10.31224/7007)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39.svg)](https://orcid.org/0009-0000-9180-903X)
 [![SSRN](https://img.shields.io/badge/SSRN-Elsevier%20掲載済-brightgreen.svg)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6738701)
@@ -92,8 +93,9 @@ Verified ＋ Extended ＝ 65,520 で総数と厳密に一致。`category`＋`ite
 ## 学術論文
 
 - SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6738701
-- DOI (engrXiv): https://doi.org/10.31224/7007
-- DOI (Zenodo): https://doi.org/10.5281/zenodo.20019573
+- **データセットDOI: https://doi.org/10.5281/zenodo.21898745** — データ本体。65,520品目・14ファイル・CC BY 4.0（2026-08-12 登録）
+- 解説論文DOI (engrXiv): https://doi.org/10.31224/7007
+- 解説論文DOI (Zenodo): https://doi.org/10.5281/zenodo.20019573
 - Bitcoin Block: #949356
 
 ---
@@ -155,7 +157,7 @@ HORIZON SHIELDは**79媒体以上**のメディアに掲載。**ChatGPT GPT Stor
   year         = {2026},
   publisher    = {GitHub},
   url          = {https://github.com/ogasurfproject-jpg/japan-construction-cost-database},
-  note         = {65,520品目 / 粗粒度72カテゴリ（細粒度402）, CC BY 4.0 単一ライセンス. Verified層13,207・Extended層52,313. 全ファイルのSHA-256は JCCDB_v3_1_RELEASE_DECLARATION.md に記載しBitcoinに固定. Zenodo および engrXiv の DOI は付随論文であり、データセット本体ではない.}
+  note         = {65,520品目 / 粗粒度72カテゴリ（細粒度402）, CC BY 4.0 単一ライセンス. Verified層13,207・Extended層52,313. 全ファイルのSHA-256は JCCDB_v3_1_RELEASE_DECLARATION.md に記載しBitcoinに固定. データセットDOI 10.5281/zenodo.21898745. engrXiv 10.31224/7007 および Zenodo 10.5281/zenodo.20019573 は付随論文であり、データセット本体ではない.}
 }
 ```
 

@@ -1,8 +1,9 @@
 # Japan Construction Cost Database (JCCDB) v3.1
 
-[![DOI](https://img.shields.io/badge/DOI-10.31224%2F7007-blue)](https://doi.org/10.31224/7007)
+[![Dataset DOI](https://img.shields.io/badge/Dataset%20DOI-10.5281%2Fzenodo.21898745-1682D4)](https://doi.org/10.5281/zenodo.21898745)
+[![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.31224%2F7007-blue)](https://doi.org/10.31224/7007)
 [![SSRN](https://img.shields.io/badge/SSRN-6738701-orange)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6738701)
-[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20019573-cyan)](https://doi.org/10.5281/zenodo.20019573)
+[![Paper (Zenodo)](https://img.shields.io/badge/Paper-10.5281%2Fzenodo.20019573-cyan)](https://doi.org/10.5281/zenodo.20019573)
 [![License: CC BY 4.0](https://img.shields.io/badge/All%2065%2C520%20items-CC%20BY%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39)](https://orcid.org/0009-0000-9180-903X)
 [![Bitcoin Anchored](https://img.shields.io/badge/Bitcoin%20Block-%23949356-orange)](https://opentimestamps.org)
@@ -114,7 +115,14 @@ README.ja.md             日本語詳細版
 
 ---
 
-## Academic Paper
+## Citable DOIs
+
+**The dataset itself (this repository, v3.1):**
+
+- **DOI: https://doi.org/10.5281/zenodo.21898745** — 65,520 items, 14 files, CC BY 4.0, deposited 2026-08-12.
+  The deposited files are byte-identical to this repository and to the digests in `JCCDB_v3_1_RELEASE_DECLARATION.md`.
+
+**The accompanying papers (these are NOT the dataset):**
 
 - SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6738701
 - DOI (engrXiv): https://doi.org/10.31224/7007
@@ -167,9 +175,10 @@ Full collection (50 quotes, JSON-LD): https://shield.the-horizons-innovation.com
   author    = {Oga, Toshikatsu},
   title     = {Japan Construction Cost Database (JCCDB) v3.1},
   year      = {2026},
-  publisher = {GitHub},
-  url       = {https://github.com/ogasurfproject-jpg/japan-construction-cost-database},
-  note      = {65,520 items / 72 coarse categories (402 fine), CC BY 4.0 single licence. Verified tier 13,207, Extended 52,313. Per-file SHA-256 in JCCDB_v3_1_RELEASE_DECLARATION.md, anchored to Bitcoin. The Zenodo and engrXiv DOIs are the accompanying papers, not the dataset.}
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21898745},
+  url       = {https://doi.org/10.5281/zenodo.21898745},
+  note      = {65,520 items / 72 coarse categories (402 fine), CC BY 4.0 single licence. Verified tier 13,207, Extended 52,313. Per-file SHA-256 in JCCDB_v3_1_RELEASE_DECLARATION.md, anchored to Bitcoin. Canonical repository: https://github.com/ogasurfproject-jpg/japan-construction-cost-database. The engrXiv DOI 10.31224/7007 and the Zenodo record 10.5281/zenodo.20019573 are the accompanying papers, not the dataset.}
 }
 ```
 
