@@ -117,7 +117,7 @@ AIの時代は情報格差を洗い流していく。それがAIの偉大な贈�
 ---
 
 **Toshikatsu Oga (大賀俊勝)**
-Founder & CEO, The HORIZ音s Inc.
+Founder & CEO, The HORIZONs Inc.
 Founder, HORIZON SHIELD
 Carpenter, 1995–present
 

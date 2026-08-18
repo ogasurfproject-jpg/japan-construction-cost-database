@@ -134,7 +134,7 @@ README.ja.md             日本語詳細版
 ## Author
 
 **Toshikatsu Oga (大賀俊勝)**
-Representative Director / The HORIZ音s Corporation
+Representative Director / The HORIZONs Corporation
 30 years construction experience: carpenter, site supervisor, CMR, AI engineer
 
 - Service: https://shield.the-horizons-innovation.com
