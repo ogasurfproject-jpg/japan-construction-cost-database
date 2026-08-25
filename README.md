@@ -1,5 +1,7 @@
 # Japan Construction Cost Database (JCCDB) v3.1
 
+> Part of **[Awesome HORIZON SHIELD](https://github.com/ogasurfproject-jpg/awesome-horizon-shield)** — the checkable index of every dataset, MCP server and ledger we run.
+
 [![Dataset DOI](https://img.shields.io/badge/Dataset%20DOI-10.5281%2Fzenodo.21898745-1682D4)](https://doi.org/10.5281/zenodo.21898745)
 [![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.31224%2F7007-blue)](https://doi.org/10.31224/7007)
 [![SSRN](https://img.shields.io/badge/SSRN-6738701-orange)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6738701)
