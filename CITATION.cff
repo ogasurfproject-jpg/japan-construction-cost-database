@@ -3,7 +3,7 @@ message: "If you use this dataset, please cite it using the metadata below."
 title: "Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation"
 abstract: >-
   An open, machine-readable construction-cost dataset for the Japanese
-  market. JCCDB v3.1 provides an item catalogue of 65,520 items across 72 coarse
+  market. JCCDB v3.1 provides an item catalogue of 95,403 items across 72 coarse
   categories (402 in the fine-grained schema), recording item names,
   categories and units only, with no embedded prices. It is released under
   a single CC BY 4.0 licence, in force since v2.1 (2026-07-11). The
@@ -71,7 +71,7 @@ keywords:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.21898745
-    description: The dataset itself (JCCDB v3.1) on Zenodo. 65,520 items, 14 files, CC BY 4.0.
+    description: The dataset itself (JCCDB v3.1) on Zenodo. 95,403 items, 14 files, CC BY 4.0.
   - type: doi
     value: 10.5281/zenodo.20019573
     description: JCCDB v1.x accompanying paper (PDF) on Zenodo. This is the paper, not a snapshot of the dataset; the dataset itself is on GitHub and Hugging Face.
