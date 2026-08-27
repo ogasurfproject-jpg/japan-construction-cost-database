@@ -2,11 +2,11 @@
 
 > Part of **[Awesome HORIZON SHIELD](https://github.com/ogasurfproject-jpg/awesome-horizon-shield)** — the checkable index of every dataset, MCP server and ledger we run.
 
-[![Dataset DOI](https://img.shields.io/badge/Dataset%20DOI-10.5281%2Fzenodo.21898745-1682D4)](https://doi.org/10.5281/zenodo.21898745)
+[![Dataset DOI](https://img.shields.io/badge/Dataset%20DOI-10.5281%2Fzenodo.22127752-1682D4)](https://doi.org/10.5281/zenodo.22127752)
 [![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.31224%2F7007-blue)](https://doi.org/10.31224/7007)
 [![SSRN](https://img.shields.io/badge/SSRN-6738701-orange)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6738701)
 [![Paper (Zenodo)](https://img.shields.io/badge/Paper-10.5281%2Fzenodo.20019573-cyan)](https://doi.org/10.5281/zenodo.20019573)
-[![License: CC BY 4.0](https://img.shields.io/badge/All%2065%2C520%20items-CC%20BY%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/All%2095%2C403%20items-CC%20BY%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39)](https://orcid.org/0009-0000-9180-903X)
 [![Bitcoin Anchored](https://img.shields.io/badge/Bitcoin%20Block-%23949356-orange)](https://opentimestamps.org)
 
@@ -66,7 +66,7 @@ Columns: `category, item_name, unit` (UTF-8 with BOM, quoted CSV). Categories ex
 
 ### Changelog
 
-- **v4.0 (2026-08-27, current release):** Catalog expansion from a verified price layer. 29,883 new items (civil/road concrete products, side ditches, culverts, retaining walls, ready-mix concrete by district, prefectural design labour rates and more) were harvested from the published unit-price tables of 56 Japanese prefectures and designated cities (131 government PDFs), each carrying an evidence_url in `jccdb-v4-provenance.csv`. All 29,883 enter the verified tier. Totals 65,520 to 95,403; verified 13,207 to 43,090; extended 52,313 unchanged. Coarse categories 72 to 97; the additions were normalised into 26 canonical civil/building buckets. Prices are NOT included in this open catalog (price data remains the HORIZON SHIELD service layer). The v4 Zenodo deposit is pending; DOI 10.5281/zenodo.21898745 still resolves to the v3.1 file set until v4 is deposited.
+- **v4.0 (2026-08-27, current release):** Catalog expansion from a verified price layer. 29,883 new items (civil/road concrete products, side ditches, culverts, retaining walls, ready-mix concrete by district, prefectural design labour rates and more) were harvested from the published unit-price tables of 56 Japanese prefectures and designated cities (131 government PDFs), each carrying an evidence_url in `jccdb-v4-provenance.csv`. All 29,883 enter the verified tier. Totals 65,520 to 95,403; verified 13,207 to 43,090; extended 52,313 unchanged. Coarse categories 72 to 97; the additions were normalised into 26 canonical civil/building buckets. Prices are NOT included in this open catalog (price data remains the HORIZON SHIELD service layer). The v4 Zenodo deposit is published: DOI 10.5281/zenodo.22127752 (2026-08-28). The v3.1 DOI 10.5281/zenodo.21898745 continues to resolve to the v3.1 (65,520) file set.
 - **v3.1 (2026-07-27):** Duplicate cleanup and catalog extension. 589 rows whose category, item_name and unit were all identical to an earlier row were removed and recorded with their source row numbers in `jccdb-v3-duplicates-removed.csv`. 543 real items not previously present (insurance and permit fees, labour rates, steel sections, rebar, electrical conduit, ground improvement, surcharge rates and others) were added from the project's own cost files and recorded in `jccdb-v3-added-20260727.csv` with the source file for each. A verification pass then found that 28 of the harvested items matched entries already proven nonexistent in v3.0; these were rejected and logged with their original retraction reasons in `jccdb-v3-rejected-readd-20260727.csv`, leaving 543 additions. Total 65,566 to 65,520, unique rows 64,977 to 65,520 (zero duplicates), categories 63 to 72, verified 13,493 to 13,207, extended 52,073 to 52,313. The verified and extended tiers were rebuilt from the full file so that verified + extended = full exactly. The fine-grained schema was rebuilt as `jccdb-v3-schema.json`: 402 categories over the same 65,520 items, one entry per CSV row (v2's schema had 398 over 65,729). A release declaration with every file digest is published as `JCCDB_v3_1_RELEASE_DECLARATION.md` and anchored to the Bitcoin blockchain through the JIDEC ledger, so the file contents can be checked without asking the author for anything.
 - **v3.0 (2026-07-21):** Verification cleanup, wave 1. 1,798 Extended items promoted to verified via official-catalog checks (evidence URLs in jccdb-v3-provenance.csv), 608 nonexistent items removed to jccdb-v3-retracted.csv (reasons included), 445 catalog-harvested items added (independent audit error rate 0%). Total 65,729 to 65,566, verified 11,250 to 13,493. item_id introduced.
 - **v2.1 (2026-07-11):** Extended tier relicensed from CC BY-NC 4.0 to **CC BY 4.0**. The whole dataset now carries a single license, matching the dataset identity that HORIZON SHIELD services publish inside signed, recomputable verification claims. Unified file `jccdb-v2-full.csv` (65,729 items) added, together with the data-pipeline reports (`clean_report.txt`, `final_report.txt`, `precision_report.txt`, `split_report.txt`). Copies of the Extended tier obtained before 2026-07-11 under CC BY-NC 4.0 may continue to be used under those terms; the CC BY 4.0 grant applies from this date onward.
@@ -120,10 +120,10 @@ README.ja.md             日本語詳細版
 
 ## Citable DOIs
 
-**The dataset itself (this repository, v3.1):**
+**The dataset itself (this repository, v4.0):**
 
-- **DOI: https://doi.org/10.5281/zenodo.21898745** — 95,403 items, 14 files, CC BY 4.0, deposited 2026-08-12.
-  The deposited files are byte-identical to this repository and to the digests in `JCCDB_v3_1_RELEASE_DECLARATION.md`.
+- **DOI (dataset, v4.0): https://doi.org/10.5281/zenodo.22127752** — 95,403 items, 11 files, CC BY 4.0, published 2026-08-28. (v3.1: https://doi.org/10.5281/zenodo.21898745 — 65,520 items, deposited 2026-08-12.)
+  The deposited files are byte-identical to this repository and to the digests in `JCCDB_v4_RELEASE_DECLARATION.md`.
 
 **The accompanying papers (these are NOT the dataset):**
 
@@ -179,9 +179,9 @@ Full collection (50 quotes, JSON-LD): https://shield.the-horizons-innovation.com
   title     = {Japan Construction Cost Database (JCCDB) v4.0},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.21898745},
-  url       = {https://doi.org/10.5281/zenodo.21898745},
-  note      = {95,403 items / 72 coarse categories (402 fine), CC BY 4.0 single licence. Verified tier 43,090, Extended 52,313. Per-file SHA-256 in JCCDB_v3_1_RELEASE_DECLARATION.md, anchored to Bitcoin. Canonical repository: https://github.com/ogasurfproject-jpg/japan-construction-cost-database. The engrXiv DOI 10.31224/7007 and the Zenodo record 10.5281/zenodo.20019573 are the accompanying papers, not the dataset.}
+  doi       = {10.5281/zenodo.22127752},
+  url       = {https://doi.org/10.5281/zenodo.22127752},
+  note      = {95,403 items / 97 coarse categories, CC BY 4.0 single licence. Verified tier 43,090, Extended 52,313. Per-file SHA-256 in JCCDB_v4_RELEASE_DECLARATION.md (v4 Bitcoin anchor pending). Canonical repository: https://github.com/ogasurfproject-jpg/japan-construction-cost-database. The engrXiv DOI 10.31224/7007 and the Zenodo record 10.5281/zenodo.20019573 are the accompanying papers, not the dataset.}
 }
 ```
 

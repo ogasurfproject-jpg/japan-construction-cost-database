@@ -70,8 +70,8 @@ keywords:
   - "不正検知"
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.21898745
-    description: The dataset itself (JCCDB v3.1) on Zenodo. 95,403 items, 14 files, CC BY 4.0.
+    value: 10.5281/zenodo.22127752
+    description: The dataset itself (JCCDB v4.0) on Zenodo. 95,403 items, 11 files, CC BY 4.0. (v3.1: 10.5281/zenodo.21898745, 65,520 items.)
   - type: doi
     value: 10.5281/zenodo.20019573
     description: JCCDB v1.x accompanying paper (PDF) on Zenodo. This is the paper, not a snapshot of the dataset; the dataset itself is on GitHub and Hugging Face.
