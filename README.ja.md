@@ -3,12 +3,23 @@
 > **日本最大級の建設費・リフォーム費用オープンデータセット**。建設業界30年の現場経験。日本初のAI建設費診断サービス「HORIZON SHIELD」の基盤データ。
 
 [![License: CC BY 4.0](https://img.shields.io/badge/全95,403品目-CC_BY_4.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Dataset DOI](https://img.shields.io/badge/Dataset%20DOI-10.5281%2Fzenodo.21898745-1682D4.svg)](https://doi.org/10.5281/zenodo.21898745)
+[![Dataset DOI](https://img.shields.io/badge/Dataset%20DOI-10.5281%2Fzenodo.22127751-1682D4.svg)](https://doi.org/10.5281/zenodo.22127751)
 [![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.5281%2Fzenodo.20019573-blue.svg)](https://doi.org/10.5281/zenodo.20019573)
 [![DOI engrXiv](https://img.shields.io/badge/Preprint-10.31224%2F7007-orange.svg)](https://doi.org/10.31224/7007)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39.svg)](https://orcid.org/0009-0000-9180-903X)
 [![SSRN](https://img.shields.io/badge/SSRN-Elsevier%20掲載済-brightgreen.svg)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6738701)
 [![Bitcoin Anchored](https://img.shields.io/badge/Bitcoin%20Block-%23949356-orange)](https://opentimestamps.org)
+
+
+## v5.0（2026-09-26）：観測層を追加
+
+JCCDB v5.0 は、v4.0 の品目の目録 95,403 品目をそのままに、**日本の観測層**を足した版です。日本の公的な出典 76 から 330,362 行（国土交通省の設計労務単価、各地の設計材料単価、公共工事の単価、建設工事費の統計とデフレーター）。1 行 1 観測で、どの品目・どの地域・どの時点かと、証拠の URL・原本の頁・利用条件を持ちます。複製や転載を禁じている出典の行と、市販の物価資料の値は入れていません。
+
+- v5.0 の DOI: https://doi.org/10.5281/zenodo.22980284
+- 全部の版（concept DOI、いつも最新の版を指す）: https://doi.org/10.5281/zenodo.22127751
+- 観測層のファイル（`jccdb-v5-observations-jp.zip`、出典の台帳、列の説明、manifest）は Zenodo の記録にあり、元は https://github.com/ogasurfproject-jpg/horizon-shield/tree/main/data/jccdb-obs-v2 です
+- 米国の対になるデータベースは **USCCDB**（United States Construction Cost Database、観測 2,849,829 行）: https://doi.org/10.5281/zenodo.22979157
+- AI エージェントは HORIZON SHIELD の MCP サーバーから両方を引けます: https://mcp.horizonshield.dev/mcp
 
 ---
 
@@ -66,7 +77,8 @@ Verified ＋ Extended ＝ 95,403 で総数と厳密に一致。`category`＋`ite
 
 ### changelog
 
-- **v4.0（2026-08-27・現行版）:** 検証済み価格レイヤーからのカタログ拡張。全国56自治体（都道府県＋政令市）の公表単価表・政府PDF131本から実在確認した29,883品目（土木の道路用コンクリート製品・側溝・カルバート・擁壁・生コン地区別・都道府県設計労務単価ほか）を追加。各品目は `jccdb-v4-provenance.csv` に evidence_url を保持。全て verified 層。総数 65,520→95,403、verified 13,207→43,090、extended 52,313 は不変。粗粒度カテゴリ 72→97、新規は26の正規カテゴリへ整理。価格は本オープンカタログには含めない（価格は HORIZON SHIELD サービス層）。v4 の Zenodo 登録は準備中で、DOI 10.5281/zenodo.21898745 は v4 登録までは v3.1 を指す。
+- **v5.0（2026-09-26・現行版）:** 日本の観測層を追加（公的な出典 76 から 330,362 行、各行に証拠の URL・原本の頁・利用条件）。品目の目録は v4.0 から変わらない。DOI https://doi.org/10.5281/zenodo.22980284。
+- **v4.0（2026-08-27）:** 検証済み価格レイヤーからのカタログ拡張。全国56自治体（都道府県＋政令市）の公表単価表・政府PDF131本から実在確認した29,883品目（土木の道路用コンクリート製品・側溝・カルバート・擁壁・生コン地区別・都道府県設計労務単価ほか）を追加。各品目は `jccdb-v4-provenance.csv` に evidence_url を保持。全て verified 層。総数 65,520→95,403、verified 13,207→43,090、extended 52,313 は不変。粗粒度カテゴリ 72→97、新規は26の正規カテゴリへ整理。価格は本オープンカタログには含めない（価格は HORIZON SHIELD サービス層）。Zenodo の DOI は 10.5281/zenodo.22127752（2026-08-28 発行）。
 - **v3.1（2026-07-27）:** 重複整理とカタログ拡張。カテゴリ・品名・単位がすべて一致する重複589行を除去し、元の行番号とともに `jccdb-v3-duplicates-removed.csv` に記録。未収録だった実在品目543件（保険・申請費、労務単価、鉄骨形鋼、鉄筋、電線管、地盤改良、割増率ほか）を自社の原価ファイルから追加し、`jccdb-v3-added-20260727.csv` に品目ごとの出典ファイルを記録。追加後の検証で、収穫した品目のうち28件が v3.0 で非実在と証明済みのものと一致することが判明したため差し戻し、元の除去理由とともに `jccdb-v3-rejected-readd-20260727.csv` に記録した（正味543件）。総品目65,566→65,520、ユニーク64,977→65,520（重複ゼロ）、カテゴリ63→72、検証済み13,493→13,207、Extended 52,073→52,313。verified と extended は full から再構築し、verified＋extended＝full が厳密に一致することを確認。細粒度スキーマも `jccdb-v3-schema.json` として再構築（同じ65,520品目に対して402カテゴリ・CSV1行につき1件。v2 は65,729品目に対して398）。全ファイルのダイジェストを記した `JCCDB_v3_1_RELEASE_DECLARATION.md` を公開し、JIDEC 台帳経由で Bitcoin に錨を打つ。全ファイルのSHA-256はこの宣言に記載されており、著者に何も尋ねることなく内容を検証できる。
 - **v3.0（2026-07-21）:** 検証大掃除第1弾。Extended層1,798品目をカタログ照合で検証済みへ昇格（昇格分は jccdb-v3-provenance.csv に証拠URLを記載）、非実在608品目をjccdb-v3-retracted.csvへ除去（全件理由付き）、公式カタログ収穫445品目を追加（独立監査エラー率0%）。総品目65,729→65,566、検証済み11,250→13,493。item_id導入。
 - **v2.1（2026-07-11）:** Extended層を CC BY-NC 4.0 から **CC BY 4.0** に変更し、全品目を単一ライセンスに統一。HORIZON SHIELD が署名付き検証クレーム内で公開してきたデータセット表記と完全に一致させました。正本ファイル `jccdb-v2-full.csv`（65,729品目）とデータ整備レポート4本を追加。2026-07-11以前に CC BY-NC 4.0 で取得された複製は当該条件のまま利用継続可能です。
@@ -94,7 +106,9 @@ Verified ＋ Extended ＝ 95,403 で総数と厳密に一致。`category`＋`ite
 ## 学術論文
 
 - SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6738701
-- **データセットDOI: https://doi.org/10.5281/zenodo.21898745** — データ本体。95,403品目・14ファイル・CC BY 4.0（2026-08-12 登録）
+- **データセットDOI（v5.0）: https://doi.org/10.5281/zenodo.22980284**（2026-09-26 発行）: v4.0 の品目の目録に、日本の観測層（330,362 行）を足した版
+- 全部の版（concept DOI）: https://doi.org/10.5281/zenodo.22127751
+- v4.0: https://doi.org/10.5281/zenodo.22127752（95,403品目・11ファイル・2026-08-28 発行）。v3.1: https://doi.org/10.5281/zenodo.21898745（65,520品目・2026-08-12 登録）
 - 解説論文DOI (engrXiv): https://doi.org/10.31224/7007
 - 解説論文DOI (Zenodo): https://doi.org/10.5281/zenodo.20019573
 - Bitcoin Block: #949356
@@ -104,9 +118,9 @@ Verified ＋ Extended ＝ 95,403 で総数と厳密に一致。`category`＋`ite
 ## ファイル構成
 
 ```
-jccdb-v3-full.csv                    正本・統合版（95,403品目・CC BY 4.0）
-jccdb-v3-verified.csv                Verified層（43,090品目）
-jccdb-v3-extended.csv                Extended層（52,313品目・マトリクス生成）
+jccdb-v4-full.csv                    正本・統合版（95,403品目・CC BY 4.0）
+jccdb-v4-verified.csv                Verified層（43,090品目）
+jccdb-v4-extended.csv                Extended層（52,313品目・マトリクス生成）
 jccdb-v3-retracted.csv               非実在と判明し除外した品目（608）・理由付き
 jccdb-v3-provenance.csv              昇格品目の証拠URL（2,243行）
 jccdb-v3-duplicates-removed.csv      v3.1で除去した重複行（589）・重複元の行番号付き
