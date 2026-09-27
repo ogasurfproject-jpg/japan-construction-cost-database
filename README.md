@@ -18,7 +18,7 @@ JCCDB v5.0 keeps the v4.0 item catalogue of 95,403 items unchanged and adds an *
 - DOI of v5.0: https://doi.org/10.5281/zenodo.22980284
 - All versions (concept DOI, resolves to the latest): https://doi.org/10.5281/zenodo.22127751
 - The observation files (`jccdb-v5-observations-jp.zip`, source ledgers, schema, manifest) are in the Zenodo record, and their source is https://github.com/ogasurfproject-jpg/horizon-shield/tree/main/data/jccdb-obs-v2
-- The United States counterpart is **USCCDB**, the United States Construction Cost Database (2,849,829 observations): https://doi.org/10.5281/zenodo.22979157
+- The United States counterpart is **USCCDB**, the United States Construction Cost Database (2,849,829 observations): https://github.com/ogasurfproject-jpg/united-states-construction-cost-database (Zenodo: https://doi.org/10.5281/zenodo.22979157)
 - AI agents can query both through the HORIZON SHIELD MCP server: https://mcp.horizonshield.dev/mcp
 
 ---
