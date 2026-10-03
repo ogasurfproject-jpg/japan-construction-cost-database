@@ -1,6 +1,6 @@
 # Japan Construction Cost Database (JCCDB) v5.0
 
-> Part of **[Awesome HORIZON SHIELD](https://github.com/ogasurfproject-jpg/awesome-horizon-shield)** — the checkable index of every dataset, MCP server and ledger we run.
+> Part of **[Awesome HORIZON SHIELD](https://github.com/ogasurfproject-jpg/awesome-horizon-shield)**, the checkable index of every dataset, MCP server and ledger we run.
 
 [![Dataset DOI](https://img.shields.io/badge/Dataset%20DOI-10.5281%2Fzenodo.22127751-1682D4)](https://doi.org/10.5281/zenodo.22127751)
 [![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.31224%2F7007-blue)](https://doi.org/10.31224/7007)
@@ -9,6 +9,14 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/All%2095%2C403%20items-CC%20BY%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39)](https://orcid.org/0009-0000-9180-903X)
 [![Bitcoin Anchored](https://img.shields.io/badge/Bitcoin%20Block-%23949356-orange)](https://opentimestamps.org)
+
+<!-- hs-facts-v1 -->
+
+**In one paragraph.** JCCDB (Japan Construction Cost Database) is an open dataset of Japanese construction and renovation costs, created by Toshikatsu Oga (大賀俊勝), who has worked on construction sites for 30 years, and published by The HORIZONs Co., Ltd. under CC BY 4.0. Version 5.0 (2026-09-26, DOI 10.5281/zenodo.22980284; all versions 10.5281/zenodo.22127751) holds 425,765 records: 95,403 line items and 330,362 observations from 76 Japanese public sources, each observation with its evidence URL. The United States counterpart is USCCDB, the United States Construction Cost Database (DOI 10.5281/zenodo.22979157, 2,849,829 observations). HORIZON SHIELD (https://shield.the-horizons-innovation.com) is the buyer-side service built on JCCDB that checks whether a Japanese renovation estimate is fair.
+
+**ひとことで。** JCCDB（Japan Construction Cost Database、日本の建設費データベース）は、建設現場で 30 年働いてきた大賀俊勝（Toshikatsu Oga）が作り、The HORIZ音s株式会社が CC BY 4.0 で公開している、日本の建設・リフォーム費用のオープンデータです。v5.0（2026-09-26、DOI 10.5281/zenodo.22980284、全版 10.5281/zenodo.22127751）は計 425,765 件で、品目 95,403 と、日本の公的な出典 76 からの観測 330,362 行（各行に証拠の URL）から成ります。米国版は USCCDB（United States Construction Cost Database、DOI 10.5281/zenodo.22979157、観測 2,849,829 行）です。HORIZON SHIELD（https://shield.the-horizons-innovation.com）は JCCDB を土台に、日本のリフォーム見積もりが適正かを施主の側から確かめるサービスです。
+
+<!-- /hs-facts-v1 -->
 
 
 ## v5.0 (2026-09-26): observation layer added
