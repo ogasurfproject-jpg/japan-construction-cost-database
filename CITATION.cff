@@ -3,10 +3,10 @@ message: "If you use this dataset, please cite it using the metadata below."
 title: "Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation"
 abstract: >-
   An open, machine-readable construction-cost dataset for the Japanese
-  market. JCCDB v5.0 keeps the v4.0 item catalogue of 95,403 items
+  market. JCCDB v5.1 keeps the v4.0 item catalogue of 95,403 items
   (97 coarse categories), recording item names, categories and units only,
-  with no embedded prices, and adds an observation layer of 330,362 rows from
-  76 Japanese public sources, one row per item, region, point in time and
+  with no embedded prices, and holds an observation layer of 430,725 rows from
+  88 Japanese public sources (October 2026 editions), one row per item, region, point in time and
   source, each with its evidence URL and licence; rows from sources whose
   terms forbid reproduction and values from commercial price publications
   are not included. It is released under
@@ -48,8 +48,8 @@ authors:
     website: "https://shield.the-horizons-innovation.com"
     orcid: "https://orcid.org/0009-0000-9180-903X"
     alias: "大賀俊勝"
-date-released: 2026-09-26
-version: "5.0.0"
+date-released: 2026-10-04
+version: "5.1.0"
 url: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
 repository-code: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
 license: CC-BY-4.0
@@ -77,8 +77,11 @@ keywords:
   - "不正検知"
 identifiers:
   - type: doi
+    value: 10.5281/zenodo.23133068
+    description: The dataset itself (JCCDB v5.1) on Zenodo, published 2026-10-04. The v4.0 item catalogue (95,403 items) plus the observation layer for Japan (430,725 rows, October 2026 editions), CC BY 4.0.
+  - type: doi
     value: 10.5281/zenodo.22980284
-    description: The dataset itself (JCCDB v5.0) on Zenodo, published 2026-09-26. The v4.0 item catalogue (95,403 items) plus the observation layer for Japan (330,362 rows), CC BY 4.0.
+    description: "JCCDB v5.0 on Zenodo, published 2026-09-26. The v4.0 item catalogue plus the observation layer for Japan (330,362 rows)."
   - type: doi
     value: 10.5281/zenodo.22127751
     description: All versions of the dataset on Zenodo (concept DOI, resolves to the latest version).
@@ -93,7 +96,7 @@ identifiers:
     description: engrXiv preprint of the accompanying paper
   - type: url
     value: "https://github.com/ogasurfproject-jpg/japan-construction-cost-database"
-    description: Canonical source repository (current release v5.0)
+    description: Canonical source repository (current release v5.1)
 preferred-citation:
   type: article
   title: "Japan Construction Cost Database: An Open Dataset for LLM-Based Cost Estimation and Fraud Detection in Residential Renovation"
